@@ -11,7 +11,12 @@ package com.bjr.agb_analyse;
 		private static final long serialVersionUID = 1L;
 	 
 		private String name;
+		private String test = "test";
 	 
+		public String getTest() {
+			return test;
+		}
+		
 		public String getName() {
 			return name;
 		}
