@@ -60,7 +60,7 @@ public class Main {
 
 		Collections.sort(resultArray, new SortCount());
 
-		// Remove first "blank" token
+		// Remove first "blank" token 
 		 resultArray.remove(0);
 
 		for (Token token : resultArray) {
