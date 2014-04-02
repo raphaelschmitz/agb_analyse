@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ul#navi-top {
+  list-style-type: none;
+  width: 100%;
+  float: left;
+  font-family: Helvetica,Arial,Verdana,sans-serif;
+  font-size: 13px;
+  line-height:13px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 0 0;
+  background-color: #000;
+}
+ 
+ul#navi-top li {
+  display: block;
+  float:left;
+  font-family: 'Rosario', sans-serif;
+  text-align:center;
+  margin: 0 0 0 0px;
+  min-width:100px;
+  background-color: #000;
+}
+ 
+ul#navi-top li a {
+  display: block;
+  padding: 5px 8px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navi-top a:hover,
+.a_navi-top a,
+.a_navi-top a:hover {
+  background-color: #cf430c;
+}

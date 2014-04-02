@@ -105,6 +105,24 @@
           <url-pattern>*.jsf</url-pattern>
 
        </servlet-mapping>
+       
+              <servlet>
+
+          <servlet-name>Backend Servlet</servlet-name>
+
+          <servlet-class>com.bjr.server.BackendServlet</servlet-class>
+
+          <load-on-startup>1</load-on-startup>
+
+       </servlet>
+
+       <servlet-mapping>
+
+          <servlet-name>Backend Servlet</servlet-name>
+
+          <url-pattern>/server/*</url-pattern>
+
+       </servlet-mapping>
 
        <!-- ***** Specify session timeout of thirty (30) minutes. ***** -->
 
