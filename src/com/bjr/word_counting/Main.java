@@ -16,11 +16,11 @@ public class Main {
 
 //		displayTokenArrayContent(generateWordVector("AGB_Dropbox.txt", true));
 //		displayTokenArrayContent(generateWordVector("AGB_Vodafone.txt", false));
+//		displayTokenArrayContent(generateWordVector("Nutzungsbedingungen_YouTube.txt", false));
 		
-//		System.out.println("Euclidean distance: " + calculateEuclideanDistance(generateWordVector("AGB_Dropbox.txt", true), generateWordVector("AGB_Vodafone.txt", false)));
-		System.out.println("\n\nEuclidean distance: " + calculateEuclideanDistance(generateWordVector("AGB_Dropbox.txt", true), generateWordVector("AGB_Dropbox_changed.txt", true)));
-
-//		ArrayList<String> content = calculateEuclideanDistance(generateWordVector("AGB_Dropbox.txt", true), generateWordVector("AGB_Vodafone.txt", false));
+		System.out.println("\nEuclidean distance Dropbox - YouTube: " + calculateEuclideanDistance(generateWordVector("AGB_Dropbox.txt", true), generateWordVector("Nutzungsbedingungen_YouTube.txt", true)));
+		System.out.println("\nEuclidean distance Dropbox - Vodafone: " + calculateEuclideanDistance(generateWordVector("AGB_Dropbox.txt", true), generateWordVector("AGB_Vodafone.txt", true)));
+		System.out.println("\nEuclidean distance Dropbox - Dropbox_changed: " + calculateEuclideanDistance(generateWordVector("AGB_Dropbox.txt", true), generateWordVector("AGB_Dropbox_changed.txt", true)));
 
 	}
 
@@ -180,7 +180,7 @@ public class Main {
 		double sum = 0;
 		
 		for (int i = 0; i < supersetArray.size(); i++) {
-			System.out.println("Array1: " + supersetTokenArray1.get(i).getWord() + " --> " + supersetTokenArray1.get(i).getCount() + "    Array2: " + supersetTokenArray2.get(i).getWord() + " --> " + supersetTokenArray2.get(i).getCount());
+//			System.out.println("Array1: " + supersetTokenArray1.get(i).getWord() + " --> " + supersetTokenArray1.get(i).getCount() + "    Array2: " + supersetTokenArray2.get(i).getWord() + " --> " + supersetTokenArray2.get(i).getCount());
 			sum = sum + Math.pow( (supersetTokenArray1.get(i).getCount() - supersetTokenArray2.get(i).getCount()), 2);
 		}
 		

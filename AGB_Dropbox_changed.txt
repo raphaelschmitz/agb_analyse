@@ -1,0 +1,90 @@
+Allgemeine Geschäftsbedingungen für
+Veröffentlicht am 20. Februar 2014
+
+Gültig ab dem 24. März 2014
+
+Vielen Dank, dass Sie Dropbox nutzen! Die vorliegenden Allgemeinen Geschäftsbedingungen („AGB“) regeln Ihren Zugriff auf die Websites und Dienste („Dienste“) von Dropbox, Inc. und die Verwendung derselben. In unseren Datenschutzrichtlinien wird erläutert, wie wir Ihre Daten sammeln und verwenden, während in unseren Nutzungsbedingungen Ihre Pflichten hinsichtlich der Nutzung unserer Dienste dargelegt werden. Mit der Verwendung unserer Dienste erklären Sie sich mit diesen AGB einverstanden und damit, unsere Datenschrutzrichtlinien und Nutzungsbedingungen zu lesen. Wenn Sie unsere Dienste für eine Organisation verwenden, stimmen Sie diesen AGB im Namen dieser Organisation zu.
+
+Ihre Daten mit Ihrer Genehmigung
+Wenn Sie unsere Dienste verwenden, stellen Sie uns Daten wie Ihre Dateien, Inhalte, E-Mail-Nachrichten, Kontakte usw. bereit („Ihre Daten“). Ihre Daten gehören Ihnen. Diese AGB verleihen uns keine Rechte an Ihren Daten, mit Ausnahme der beschränkten Rechte, die uns die Möglichkeit geben, die Dienste anzubieten.
+
+Wir benötigen Ihre Genehmigung, um beispielsweise Ihre Daten zu hosten, zu sichern und sie auf Ihre Aufforderung hin freizugeben. Unsere Dienste bieten Ihnen auch Funktionen an wie Miniaturbilder von Fotos, Voransicht von Dokumenten, E-Mail-Organisation, leichtes Sortieren, Bearbeiten, Freigeben und Suchen. Diese und andere Funktionen erfordern den Zugriff und das Scannen Ihrer Daten durch unsere Systeme. Sie erteilen uns die Genehmigung, diese Aufgaben auszuführen, und diese Genehmigung erstreckt sich auch auf die Drittanbieter, mit denen wir zusammenarbeiten.
+
+Freigabe Ihrer Inhalte
+Über unsere Dienste können Sie Ihre Daten mit anderen teilen, überlegen Sie also sorgfältig, was Sie freigeben.
+
+Ihre Verantwortung
+Sie sind für Ihr Handeln verantwortlich und Ihre Daten müssen unseren Nutzungsbedingungen entsprechen. Der Inhalt in den Diensten kann durch die Rechte des geistigen Eigentums geschützt sein. Sie sollten Inhalt nur dann kopieren, hochladen, herunterladen oder freigeben, wenn Sie auch das Recht dazu haben.
+
+Wir behalten uns das Recht vor, Ihr Handeln und Ihren Inhalt auf Einhaltung dieser AGB und unserer Nutzungsrichtlinien zu überprüfen. Allerdings sind wir dazu nicht verpflichtet. Wir sind nicht für den Inhalt verantwortlich, den Nutzer posten und über die Dienste freigeben.
+
+Bitte schützen Sie Ihr Kennwort zu den Diensten, stellen Sie sicher, dass andere keinen Zugang dazu haben und halten Sie Ihre Kontodaten auf dem neusten Stand.
+
+Abschließend möchten wir darauf hinweisen, dass unsere Dienste nicht für Kinder unter 13 Jahren geeignet sind und nicht von ihnen verwendet werden dürfen. Durch Ihre Verwendung unserer Dienste erklären Sie, dass Sie über 13 Jahre alt sind.
+
+Software
+Einige unserer Dienste gestatten das Herunterladen von Client-Software („Software“), die automatisch aktualisiert werden kann. Solange Sie diesen AGB entsprechen, erteilen wir Ihnen eine beschränkte, nicht-ausschließliche, nicht übertragbare, widerrufliche Lizenz, die Software ausschließlich für den Zugriff auf die Dienste zu verwenden. Soweit eine Softwarekomponente unter einer quelloffenen Lizenz angeboten wird, machen wir die Lizenz für Sie verfügbar und die Bestimmungen der Lizenz können einige der Bedingungen in diesen AGB ausdrücklich aufheben. Sofern rechtlich zulässig, willigen Sie ein, die Dienste auch nicht versuchsweise zurückzuentwickeln oder zu dekompilieren oder dies zu unterstützen.
+
+Unser Eigentum
+Unsere Dienste sind durch das Urheberrecht, Marken und andere amerikanische und ausländische Gesetze geschützt. Diese AGB verleihen Ihnen keine Rechte, keinen Titel oder Anspruch auf die Dienste, den Inhalt Anderer in den Diensten, die Dropbox-Marken, -Logos und anderen -Markenkennzeichen. Wir freuen uns über Feedback, weisen aber darauf hin, dass wir mit der Verwendung von Kommentaren oder Vorschlägen keinerlei Verpflichtung Ihnen gegenüber eingehen.
+
+Copyright
+Wir respektieren das geistige Eigentum anderer und erwarten dasselbe von Ihnen. Wir reagieren auf Benachrichtigungen über angebliche Urheberrechtsverletzungen, wenn diese dem Gesetz entsprechen und wir hinreichend informiert werden. Für Benachrichtigungen solcher Art gelten unsere DMCA-Richtlinien. Wir behalten uns das Recht vor, mutmaßlich gegen Urheberrechte verstoßende Inhalte zu löschen oder zu deaktivieren sowie die Konten von Nutzern, die wiederholt gegen das Urheberrecht verstoßen, aufzulösen. Die Ansprechperson für Meldungen über mutmaßliche Urheberrechtsverletzungen im Zusammenhang mit den Diensten ist:
+
+Copyright Agent
+Dropbox Inc.
+185 Berry Street, Ste 400
+San Francisco, CA 94107, USA
+copyright@dropbox.com
+
+Zahlungspflichtige Konten
+Abrechnung – Sie können Ihren Speicherplatz erhöhen und Ihrem Konto zahlungspflichtige Funktionen hinzufügen (indem Sie Ihr Konto in ein „zahlungspflichtiges Konto“ umwandeln). Ab dem Datum, an dem Sie Ihr Konto in ein zahlungspflichtiges Konto umwandeln und jedesmal, wenn die Erneuerung Ihres Abos fällig wird, bis zur Kündigung, senden wir Ihnen automatisch eine Rechnung. Sie sind verantwortlich für alle fälligen Steuern und wir erheben dort Steuern wo erforderlich.
+
+Keine Rückerstattung – Sie können Ihr zahlungspflichtiges Dropbox-Konto jederzeit kündigen, erhalten aber keine Rückerstattung.
+
+Downgrades – Ihr zahlungspflichtiges Konto bleibt bestehen, bis es unter diesen AGB gekündigt oder aufgelöst wird. Wenn Sie Ihr zahlungspflichtiges Konto nicht rechtzeitig begleichen, behalten wir uns das Recht vor, es zu kündigen oder den Speicherplatz auf eine kostenlose Speicherplatzmenge zu senken. Sie sind verantwortlich für alle Steuern und wir werden dort Steuern erheben wo erforderlich.
+
+Änderungen – Wir können die geltenden Gebühren ändern, benachrichtigen Sie vorher aber per E-Mail an die Adresse, die mit Ihrem Konto verknüpft ist.
+
+Dropbox für Unternehmen
+E-Mail-Adresse – Wenn Sie sich mit einer von Ihrem Arbeitgeber bereitgestellten E-Mail-Adresse für ein Dropbox-Konto anmelden, kann Ihr Arbeitgeber Ihre Verwendung von Dropbox sperren, bis Sie auf ein Dropbox für Unternehmen-Konto gewechselt oder Ihr Dropbox-Konto mit einer privaten E-Mail-Adresse verknüpft haben.
+
+Verwendung von Dropbox für Unternehmen – Wenn Sie einem Dropbox für Unternehmen-Konto beitreten, sind Sie verpflichtet, es in Übereinstimmung mit den Bedingungen und Richtlinien Ihres Arbeitgebers zu verwenden. Bitte beachten Sie, dass Dropbox für Unternehmen-Konten der Kontrolle Ihres Arbeitgebers unterliegen. Ihre Administratoren können auf die Informationen Ihres Dropbox für Unternehmen-Kontos zugreifen, sie offenlegen, beschränken oder aus dem Konto entfernen. Sie können Ihren Zugriff auf ein Dropbox für Unternehmen-Konto auch beschränken oder unterbinden. Wenn Sie ein bestehendes Dropbox-Konto in ein Dropbox für Unternehmen-Konto umwandeln, können Ihre Administratoren es verhindern, dass Sie später die Verknüpfung Ihres Kontos vom Dropbox für Unternehmen-Konto aufheben.
+
+Beendigung der Nutzung
+Sie können unsere Dienste jederzeit kündigen. Wir behalten uns das Recht vor, die Dienste nach eigenem Ermessen, zu einem frei wählbaren Datum und ohne vorherige Benachrichtigung zu kündigen. Wir sperren oder unterbinden beispielsweise Ihre Verwendung der Dienste, wenn Sie die Bedingungen dieser AGB nicht einhalten oder die Dienste auf eine Weise verwenden, durch die für uns ein Haftungsrisiko entsteht, die Dienste unterbrechen oder die Verwendung der Dienste durch andere unterbrechen. Außer bei zahlungspflichtigen Konten behalten wir uns das Recht vor, Ihr Konto zu kündigen und aufzulösen, wenn Sie mehr als 12 aufeinanderfolgende Monate nicht darauf zugreifen. Selbstverständlich setzen wir Sie davon zuvor per E-Mail an die mit Ihrem Konto verknüpfte Adresse in Kenntnis.
+
+Dienste „AS IS“
+Wir bemühen uns, hervorragende Dienste bereitzustellen. Allerdings gibt es einige Dinge, für die wir nicht garantieren können. SOWEIT RECHTLICH ZULÄSSIG, ÜBERNEHMEN DROPBOX UND SEINE VERTRAGSPARTNER, ZULIEFERER UND VERTEILER WEDER AUSDRÜCKLICHE NOCH STILLSCHWEIGENDE GARANTIEN HINSICHTLICH DER DIENSTE. DIE DIENSTE WERDEN WIE VORLIEGEND („AS IS“) BEREITGESTELLT. DARÜBER HINAUS LEHNEN WIR ALLE GARANTIEN HINSICHTLICH DER MARKTGÄNGIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG VON RECHTEN AB. In einigen US-amerikanischen Bundesstaaten sind die in diesem Abschnitt erläuterten Haftungsausschlüsse nicht zulässig. Es kann daher sein, dass diese für Sie nicht gelten.
+
+Haftungsbeschränkung
+SOWEIT GESETZLICH ZULÄSSIG HAFTEN DROPBOX, SEINE VERTRAGSPARTNER, ZULIEFERER ODER VERTEILER KEINESFALLS FÜR (A) INDIREKTE SCHÄDEN, EINZELFALLSCHÄDEN, NEBENSCHÄDEN, STRAFSCHADENSERSATZ, VERSCHÄRFTEN SCHADENSERSATZ, FOLGESCHÄDEN ODER SCHÄDEN DURCH ENTGANGENE NUTZUNG, DATENVERLUST, ENTGANGENE GESCHÄFTE UND ENTGANGENEN GEWINN UND DIES UNABHÄNGIG VON DER RECHTSAUFFASSUNG UND DAVON, OB DROPBOX VOR DIESEN SCHÄDEN GEWARNT WURDE, UND SELBST WENN DER WESENTLICHE ZWECK EINES RECHTSBEHELFS VERFEHLT WIRD; (B) EINE GESAMTSUMME FÜR ALLE ANSPRÜCHE IN BEZUG AUF DIE SERVICES VON ÜBER 20 US$ ODER DEN VON IHNEN AN DROPBOX IN DEN LETZTEN ZWÖLF MONATEN FÜR DIE ENTSPRECHENDEN SERVICES GEZAHLTEN BETRÄGEN. In einigen Staaten sind solche einschränkenden Klauseln unzulässig und gelten für Sie daher möglicherweise nicht.
+
+Beilegung von Streitigkeiten
+Gütliche Einigung – Wir möchten Ihre Probleme mit Dropbox gerne ohne Unterstützung eines Gerichts aus der Welt schaffen. Bevor Sie eine Klage gegen Dropbox einreichen, bemühen Sie sich zunächst um eine informelle Beilegung der Streitigkeit, indem Sie sich an dispute-notice@dropbox.com wenden. Wir bemühen uns, die Streitigkeit informell per E-Mail beizulegen. Sollte eine Streitigkeit nicht innerhalb von 15 Tagen nach Vorbringen beigelegt sein, können Sie oder Dropbox ein formelles Verfahren einleiten.
+
+Schiedsvereinbarung – Der Kunde und Dropbox kommen überein, alle diese Bedingungen oder die Dienste betreffenden Ansprüche, mit Ausnahme der unter Ausnahmen von der Schiedsvereinbarung erläuterten Situationen, durch ein abschließendes und verbindliches Schiedsverfahren zu klären.
+
+Nichteinverständnis zur Schiedsvereinbarung – Sie können Ihr Nichteinverständnis mit dieser Schiedsvereinbarung erklären, indem Sie hier klicken und die Nichteinverständniserklärung dort innerhalb von 30 Tagen nach Annahme dieser AGB einreichen.
+
+Vorgehensweise bei Schiedsverfahren – Die American Arbitration Association (AAA) wird das Schiedsverfahren im Rahmen seiner Commercial Arbitration Rules (Handelsschiedsgerichtsordnung) und den Supplementary Procedures for Consumer Related Disputes (Ergänzende Verfahren bei Verbraucherfragen) entscheiden. Das Schiedsverfahren wird in den Vereinigten Staaten in dem County Ihres Wohnsitzes oder Arbeitsplatzes, San Francisco (CA) oder an einem anderen vereinbarten Ort geführt.
+
+Schiedsgerichtsgebühren und Boni – Die AAA-Entscheidung umfasst auch die Entscheidung über alle zahlbaren Gebühren des Schiedsverfahrens. Dropbox übernimmt alle Gebühren von Schiedsverfahren um Ansprüche von weniger als 75.000 $. Wenn ein Schiedsverfahren zu Ihren Gunsten und besser als ein Angebot ausfällt, das wir Ihnen zur Beilegung der Streitigkeit anbieten, zahlen wir Ihnen zusätzlich zu der Verfahrenssumme 1.000 $. Dropbox fordert bei Schiedsverfahren keine Anwaltskosten ein, es sei denn der Schlichter erachtet Ihren Anspruch als unbegründet.
+
+Ausnahmen von der Schiedsvereinbarung – Sie oder Dropbox können, sofern sie die Bedingungen erfüllt, eine Klage im Small Claims Court in San Francisco (CA) oder einem anderen US-amerikanischen County Ihres Wohnsitzes oder Arbeitsplatzes anstrengen. Jede der beiden Parteien kann eine Klage mit dem Ziel eines Unterlassungsanspruchs anstrengen, um die unzulässige Verwendung oder den Missbrauch der Dienste oder eine Rechtsverletzung des geistigen Eigentums ohne das oben beschriebene informelle Benachrichtigungsverfahren zu unterbinden.
+
+Keine Gemeinschaftsklagen – Sie dürfen Streitigkeiten mit Dropbox nur einzeln beilegen und keine gemeinschaftliche, konsolidierte oder Verbandsklage anstrengen. Gruppenschiedsverfahren, Sammelklagen, Private Attorney General-Klagen und Konsolidierung mit anderen Schiedsverfahren sind nicht gestattet.
+
+Gerichtsstand – Sollte die Schiedsvereinbarung nicht auf Sie oder Ihren Anspruch anwendbar sein, kommen Sie und Dropbox überein, dass alle Rechtsverfahren (über ein Verfahren im Small Claims Court hinaus) vor das Bundes- oder Landesgericht in San Francisco County (CA) gebracht werden. Sowohl Sie als auch Dropbox stimmen dem Schiedsort zu und erkennen die dortige Gerichtshoheit an.
+
+Geltendes Recht
+Diese AGB unterliegen, abgesehen von etwaigen Kollisionsnormen, kalifornischem Recht.
+
+Gesamte Vereinbarung
+Diese AGB stellen hinsichtlich des hier festgelegten Gegenstands die gesamte Vereinbarung zwischen Ihnen und Dropbox dar und heben alle vorherigen oder gleichzeitig vorhandenen Vereinbarungen zu diesem Gegenstand auf. Durch diese AGB werden keine Rechte zugunsten Dritter eingeräumt.
+
+Rechtsverzicht, salvatorische Klausel und Übertragung von Rechten
+Jegliches Versäumnis von Dropbox, eine Klausel nicht geltend zu machen, bedeutet nicht, dass sie zu einem späteren Zeitpunkt nicht gilt. Sollte eine Klausel für nichtig befunden werden, bleibt die Gültigkeit der übrigen AGB hiervon unberührt, und sie wird durch eine durchsetzbare Bedingung, die unseren Absichten weitgehendst entspricht, ersetzt. Die unter diesen AGB erteilten Rechte sind nicht übertragbar und jeder dahingehende Versuch ist ungültig. Dropbox kann seine Rechte oder die seiner Vertragspartner oder Tochtergesellschaften einem Interessensnachfolger eines beliebigen Unternehmens mit Bezug zu unseren Diensten übertragen.
+
+Änderungen
+Wir behalten uns das Recht vor, diese AGB von Zeit zu Zeit zu ändern. Die aktuelle Version ist von unserer Website abrufbar. Sollte eine Änderung Ihre Rechte wesentlich mindern, benachrichtigen wir Sie (beispielsweise per E-Mail an die Adresse, die mit Ihrem Konto verknüpft ist, durch einen Post auf Ihrem Blog oder auf dieser Seite). Mit der weiteren Nutzung der Dienste nach Inkrafttreten der Änderungen stimmen Sie den geänderten AGB zu.
