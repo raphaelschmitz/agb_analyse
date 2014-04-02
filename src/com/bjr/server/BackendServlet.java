@@ -3,6 +3,9 @@ package com.bjr.server;
 //Import required java libraries
 import java.io.*;
 
+import javax.faces.bean.ApplicationScoped;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
@@ -11,43 +14,30 @@ import com.bjr.agb_analyse.Bean;
 import java.util.*;
 
 //Extend HttpServlet class
-public class BackendServlet extends HttpServlet {
-
+@ManagedBean
+public class BackendServlet extends HttpServlet implements Serializable  {
+	
 // Method to handle GET method request.
 public void doGet(HttpServletRequest request,
                  HttpServletResponse response)
          throws ServletException, IOException
 {
-
    // Set response content type
-   response.setContentType("text/html");
+   response.setContentType("application/json");
 
    PrintWriter out = response.getWriter();
-	  String title = "HTTP Header Request Example";
-   String docType =
-   "<!doctype html public \"-//w3c//dtd html 4.0 " +
-   "transitional//en\">\n";
-   out.println(docType +
-     "<html>\n" +
-     "<head><title>" + title + "</title></head>\n"+
-     "<body bgcolor=\"#f0f0f0\">\n" +
-     "<h1 align=\"center\">" + title + "</h1>\n" +
-     "<table width=\"100%\" border=\"1\" align=\"center\">\n" +
-     "<tr bgcolor=\"#949494\">\n" +
-     "<th>Header Name</th><th>Header Value(s)</th>\n"+
-     "</tr>\n");
-
-   Enumeration headerNames = request.getHeaderNames();
-   
-   while(headerNames.hasMoreElements()) {
-      String paramName = (String)headerNames.nextElement();
-      out.print("<tr><td>" + paramName + "</td>\n");
-      String paramValue = request.getHeader(paramName);
-      out.println("<td> " + paramValue + "</td></tr>\n");
+   if (request.getParameter("agb1") != null)
+   {
+   Model.getInstance().agb1 = request.getParameter("agb1");
    }
-   out.println(request.getParameter("comment1"));
-   out.println(request.getParameter("comment2"));
-   out.println("</table>\n</body></html>");
+   if (request.getParameter("agb2") != null)
+   {
+   Model.getInstance().agb2 = request.getParameter("agb2");
+   }
+   out.println(Model.getInstance().agb1);
+   System.out.println(Model.getInstance().agb1);
+   out.println(Model.getInstance().agb2);
+   System.out.println(Model.getInstance().agb2);
 }
 // Method to handle POST method request.
 public void doPost(HttpServletRequest request,

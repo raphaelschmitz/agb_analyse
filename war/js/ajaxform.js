@@ -1,3 +1,23 @@
+function stripAndExecuteScript(text) {
+    var scripts = '';
+    var cleaned = text.replace(/<script[^>]*>([\s\S]*?)<\/script>/gi, function(){
+        scripts += arguments[1] + '\n';
+        return '';
+    });
+
+    if (window.execScript){
+        window.execScript(scripts);
+    } else {
+        var head = document.getElementsByTagName('head')[0];
+        var scriptElement = document.createElement('script');
+        scriptElement.setAttribute('type', 'text/javascript');
+        scriptElement.innerText = scripts;
+        head.appendChild(scriptElement);
+        head.removeChild(scriptElement);
+    }
+    return cleaned;
+};
+
 function ajaxFormPost(strURL, dir, formname, responsediv, lang, mistakes, content) {
 	strURL = strURL;
 
@@ -18,13 +38,11 @@ function ajaxFormPost(strURL, dir, formname, responsediv, lang, mistakes, conten
     self.xmlHttpReq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     self.xmlHttpReq.onreadystatechange = function() {
         if (self.xmlHttpReq.readyState == 4) {
-            updatepage(self.xmlHttpReq.responseText,responsediv);
-			$('#loading').fadeOut('fast');
+        	
+        	ajaxContentPost(content, '', '', 'content', 'de');
+
         }
-		else {
-			$('#loading').fadeIn('fast');
-			// updatepage(responsemsg,responsediv);
-		}
+
     }
     self.xmlHttpReq.send(getquerystring(formname) + '&lang=' + lang + '&mistakes=' + mistakes + '&content=' + content);
 }
@@ -134,8 +152,12 @@ function ajaxContentPost(strURL,dir,content,responsediv,lang) {
 
 function updatecontent(str,responsediv){
 	//$('#'+responsediv).css("display", "none");
-    document.getElementById(responsediv).innerHTML = str;
+//alert(str + 'dd');
+//STR.find('#content').appendTo('#content');
+//STR.find('script').appendTo('#content');
+    document.getElementById(responsediv).innerHTML = stripAndExecuteScript(str);
 	//$('#'+responsediv).fadeIn('fast');
+    
 	
 }
 

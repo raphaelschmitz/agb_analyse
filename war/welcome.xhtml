@@ -4,22 +4,31 @@
    xmlns:h="http://java.sun.com/jsf/html"
    xmlns:ui="http://java.sun.com/jsf/facelets">
    	<head id="head">
-   	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+   	    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.js"></script>
 		<script type="text/javascript" src="js/ajaxform.js"></script> 
+		
 		<link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'></link>
 		<link href="css/face.css" rel="stylesheet" type="text/css" media="screen"/>
 		<link href="css/navi.css" rel="stylesheet" type="text/css" media="screen"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script src="http://d3js.org/d3.v3.min.js"></script>
 		<script>
 		$(function() {
 			ajaxContentPost('einzelanalyse.xhtml', '', '1', 'content', 'de');
 			setactiv(1,2); return false;
 		});
+		
+		
 		</script>
 
       	<title>AGB-Analyse</title>
+      	
+      	
 	   	</head>
-	   	<h:body id="body">   
+	   	
+	   	<h:body id="body">  
+	   	 
 		   	<div id="main">
 			<div id="top">
 		    	<div style="float:left; width:150px"><h1>AGB-Analyse</h1></div>
