@@ -1,13 +1,14 @@
 package com.bjr.word_counting;
 
+
 public class Token {
 	
 	private String word;
 	private int count;
 	
-	public Token(String word) {
+	public Token(String word, int initalValue) {
 		this.word = word;
-		this.count = 1;
+		this.count = initalValue;
 	}
 
 	public String getWord() {
@@ -16,6 +17,10 @@ public class Token {
 
 	public void setWord(String word) {
 		this.word = word;
+	}
+	
+	public void setCount(int count) {
+		this.count = count;
 	}
 
 	public int getCount() {
