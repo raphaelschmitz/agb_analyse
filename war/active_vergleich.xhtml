@@ -1,6 +1,18 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<style>
+   	<head id="head">
+   	    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/ajaxform.js"></script> 
+		
+		<link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'></link>
+		<link href="css/face.css" rel="stylesheet" type="text/css" media="screen"/>
+		<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+
+      	<title>AGB-Analyse</title>
+      	<style>
 
 body {
   font: 10px sans-serif;
@@ -22,12 +34,25 @@ body {
 }
 
 </style>
-<body>
+      	
+	   	</head>
+	   	
+	   	<body id="body" class="inner">  
+	   	 
+		   	<div id="main">
+			<div id="top">
+		    	<div style="float:left; width:150px"><h1>AGB-Analyse</h1></div>
+		    	<div id="loading"><img height="25px;" src="images/loading.gif" /></div>
+		    </div>
+		    <div id="head">
+			</div>    
+			<div id="content">
 <script src="http://d3js.org/d3.v3.min.js"></script>
+
 <script>
 
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 960 - margin.left - margin.right,
+    width = 924 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 var x0 = d3.scale.ordinal()
@@ -50,7 +75,7 @@ var yAxis = d3.svg.axis()
     .orient("left")
     .tickFormat(d3.format(".2s"));
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#content").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -119,5 +144,10 @@ d3.csv("/server", function(error, data) {
 });
 
 </script>
+		 	</div>
+			<div id="footer">  	
+		   	</div>   
+</div>
+
 </body>
 </html>
