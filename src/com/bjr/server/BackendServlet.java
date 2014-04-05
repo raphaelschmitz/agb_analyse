@@ -40,30 +40,33 @@ public void doGet(HttpServletRequest request,
    if (request.getParameter("muster") != null){
    Model.getInstance().muster = request.getParameter("muster");
    }
-
-   if (Model.getInstance().choice.equals("einzel") && request.getParameter("agb1") == null)
-   {
-   value = Main.getWordVectorAsJSON(Model.getInstance().agb1);
-   out.println(value);
-   }
-
-   if (Model.getInstance().choice.equals("vergleich") && request.getParameter("agb1") == null && request.getParameter("agb2") == null)
-   {
-	   System.out.println(Model.getInstance().muster);
-	   if (Model.getInstance().muster != null)
+	
+   if (request.getParameter("abstand")==null) {
+	   if (Model.getInstance().choice.equals("einzel") && request.getParameter("agb1") == null)
 	   {
-		   value = Main.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().agb1, this.getServletContext());	 
-		   System.out.println("erstes");
+	   value = Main.getWordVectorAsJSON(Model.getInstance().agb1);
+	   out.println(value);
 	   }
-	   else
+	   if (Model.getInstance().choice.equals("vergleich") && request.getParameter("agb1") == null && request.getParameter("agb2") == null)
 	   {
-		   value = Main.getWordVectorComparisonAsCSV(Model.getInstance().agb1,Model.getInstance().agb2);
-		   System.out.println("zweiters");
+		   System.out.println(Model.getInstance().muster);
+		   if (Model.getInstance().muster != null)
+		   {
+			   value = Main.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().agb1, this.getServletContext());	 
+			   System.out.println("erstes");
+		   }
+		   else
+		   {
+			   value = Main.getWordVectorComparisonAsCSV(Model.getInstance().agb1,Model.getInstance().agb2);
+			   System.out.println("zweiters");
+		   }
+	   out.println(value); 
+	   Model.getInstance().muster = null;
 	   }
-   out.println(value); 
-   Model.getInstance().muster = null;
+   } else
+   {
+	   out.println("1234");
    }
- 
 //   
 //   if (request.getParameter("agb1") != null)
 //   {
