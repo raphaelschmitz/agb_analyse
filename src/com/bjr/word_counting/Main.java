@@ -25,28 +25,17 @@ public class Main {
 //		System.out.println("\nEuclidean distance Dropbox - YouTube: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("Nutzungsbedingungen_YouTube.txt", true)));
 //		System.out.println("\nEuclidean distance Dropbox - Vodafone: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Vodafone.txt", true)));
 //		System.out.println("\nEuclidean distance Dropbox - Dropbox_changed: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Dropbox_changed.txt", true)));
-			System.out.println(getWordVectorAsJSON("Um die Services zu nutzen, m�ssen Sie zuerst den Bestimmungen zustimmen."));
-
+			System.out.println(getWordVectorAsJSON("Um die Services zu nutzen abd a3f dfdf"));
 	}
 	
 	public static String getWordVectorAsJSON(String agb_text) {
 		
 		Gson gson = new Gson();
-		String json = null;
 		String result = null;
 		
 		ArrayList<Token> arrayList = generateWordVectorFromString(agb_text);
 		
-//		for (Token token : arrayList) {
-////			result = token.getWord() + token.getCount();
-//			result = gson.toJson(token);
-//			gsonBuilder.
-//		}
-		
-		result = gson.toJson(arrayList);
-		
-//		String s = token + "";
-//		Token t = gson.fromJson(gson, Token.class);
+		result = "{\"children\":" + gson.toJson(arrayList) + "}"; 
 		
 		return result;
 	}
