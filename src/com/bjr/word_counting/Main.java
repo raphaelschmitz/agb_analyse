@@ -7,26 +7,24 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.UnsupportedEncodingException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import javax.servlet.ServletContext;
+
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-//		displayTokenArrayContent(generateWordVectorFromFile("AGB_Dropbox.txt", true));
-//		displayTokenArrayContent(generateWordVectorFromFile("AGB_Vodafone.txt", false));
-//		displayTokenArrayContent(generateWordVectorFromFile("Nutzungsbedingungen_YouTube.txt", false));
+//		displayTokenArrayContent(generateWordVectorFromFile("war\\WEB-INF\\agb_templates\\AGB_Muster.txt", true));
 		
 //		System.out.println("\nEuclidean distance Dropbox - YouTube: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("Nutzungsbedingungen_YouTube.txt", true)));
 //		System.out.println("\nEuclidean distance Dropbox - Vodafone: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Vodafone.txt", true)));
 //		System.out.println("\nEuclidean distance Dropbox - Dropbox_changed: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Dropbox_changed.txt", true)));
 //		System.out.println(getWordVectorComparisonAsCSV("Um die Services zu nutzen abd a3f dfdf", "Hallo dies ist ein Test dfdf a3f dfdf"));
-		System.out.println(getWordVectorComparisonWithTemplateAsCSV("Um die Services zu nutzen abd a3f dfdf"));
+//		System.out.println(getWordVectorComparisonWithTemplateAsCSV("Um die Services zu nutzen abd a3f dfdf"));
 	}
 	
 	public static String getWordVectorComparisonAsCSV(String agb_text1, String agb_text2) {
@@ -83,14 +81,18 @@ public class Main {
 		sb.append("Word,AGB 1,AGB 2\n");
 		
 		for (int i = 0; i < supersetArray.size(); i++) {
-//		for (int i = 0; i < 25; i++) {
-			sb.append(supersetTokenArray1.get(i).getWord() + "," + supersetTokenArray1.get(i).getCount() + "," + supersetTokenArray2.get(i).getCount() + "\n");			
+			
+			if (i < 26) {
+				sb.append(supersetTokenArray1.get(i).getWord() + "," + supersetTokenArray1.get(i).getCount() + "," + supersetTokenArray2.get(i).getCount() + "\n");			
+			} else {
+				break;
+			}
 		}
 		
 		return sb.toString();
 	}
 	
-	public static String getWordVectorComparisonWithTemplateAsCSV(String agb_text) {
+	public static String getWordVectorComparisonWithTemplateAsCSV(String agb_text, ServletContext servletContext) {
 		StringBuffer sb = new StringBuffer();
 		
 		ArrayList<String> supersetArray = new ArrayList<String>();
@@ -98,8 +100,33 @@ public class Main {
 		ArrayList<Token> supersetTokenArray2 = new ArrayList<Token>();
 		
 		ArrayList<Token> tokenArray1 = generateWordVectorFromString(agb_text);
-		ArrayList<Token> tokenArray2 = generateWordVectorFromFile("\\agb_templates\\AGB_Muster.txt", false);
-
+		
+		StringBuffer content = new StringBuffer();
+		Reader reader = null;
+		String line;
+		String lineFeed = System.getProperty("line.separator");
+		
+		try {
+			reader = new InputStreamReader(servletContext.getResourceAsStream("/WEB-INF/agb_templates/AGB_Vodafone.txt"));
+			BufferedReader bReader = new BufferedReader(reader);
+			while ((line = bReader.readLine()) != null) {
+				content.append(line).append(lineFeed);
+//				 content.append(line);
+			}
+			bReader.close();
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		ArrayList<Token> tokenArray2 = generateWordVectorFromString(content.toString());
+		
 //		 Generate a superset of the dimensions of both tokenArrays
 		
 //		 Copy entire first array
@@ -140,12 +167,16 @@ public class Main {
 			}
 		}
 		
-		sb.append("Word,AGB 1,AGB 2\n");
+		sb.append("Word,AGB 1,Muster AGB\n");
 		
 		for (int i = 0; i < supersetArray.size(); i++) {
-//		for (int i = 0; i < 25; i++) {
 
-			sb.append(supersetTokenArray1.get(i).getWord() + "," + supersetTokenArray1.get(i).getCount() + "," + supersetTokenArray2.get(i).getCount() + "\n");			
+			if (i < 26) {
+				sb.append(supersetTokenArray1.get(i).getWord() + "," + supersetTokenArray1.get(i).getCount() + "," + supersetTokenArray2.get(i).getCount() + "\n");
+			} else {
+				break;
+			}
+			
 		}
 		
 		return sb.toString();
@@ -194,7 +225,7 @@ public class Main {
 	
 	private static ArrayList<Token> generateWordVectorFromFile(String filename, boolean useUTF8) {
 		
-		String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\�)|(\\�)|(\\�)|(\\-)|(\\r)|(\\n)";
+		String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\„)|(\\“)|(\\-)|(\\r)|(\\n)";
 		String[] splitString;
 		ArrayList<Token> tokenArray = new ArrayList<Token>();
 		StopwordArray stopwords = new StopwordArray();
@@ -254,7 +285,7 @@ public class Main {
 	
 private static ArrayList<Token> generateWordVectorFromString(String agb_text) {
 	
-	String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\�)|(\\�)|(\\�)|(\\-)|(\\r)|(\\n)";
+	String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\„)|(\\“)|(\\-)|(\\r)|(\\n)";
 	String[] splitString;
 	ArrayList<Token> tokenArray = new ArrayList<Token>();
 	StopwordArray stopwords = new StopwordArray();

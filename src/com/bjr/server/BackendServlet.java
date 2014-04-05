@@ -52,7 +52,7 @@ public void doGet(HttpServletRequest request,
 	   System.out.println(Model.getInstance().muster);
 	   if (Model.getInstance().muster != null)
 	   {
-		   value = Main.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().agb1);	 
+		   value = Main.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().agb1, this.getServletContext());	 
 		   System.out.println("erstes");
 	   }
 	   else
