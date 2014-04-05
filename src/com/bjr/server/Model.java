@@ -5,6 +5,7 @@ public class Model {
 	public static String agb1;
 	public static String agb2;
 	public static String choice;
+	public static String muster;
 
 
 	public static Model getInstance(){

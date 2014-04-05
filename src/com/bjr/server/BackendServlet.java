@@ -25,7 +25,7 @@ public void doGet(HttpServletRequest request,
 {
    // Set response content type
    response.setContentType("application/json");
-
+   String value = "";
    PrintWriter out = response.getWriter();
    
    if (request.getParameter("switch") != null){
@@ -37,18 +37,33 @@ public void doGet(HttpServletRequest request,
    if (request.getParameter("agb2") != null){
    Model.getInstance().agb2 = request.getParameter("agb2");
    }
-
-   if (Model.getInstance().choice.equals("einzel"))
-   {
-   String test = Main.getWordVectorAsJSON(Model.getInstance().agb1);
-   out.println(test);
+   if (request.getParameter("muster") != null){
+   Model.getInstance().muster = request.getParameter("muster");
    }
 
-   if (Model.getInstance().choice.equals("vergleich"))
+   if (Model.getInstance().choice.equals("einzel") && request.getParameter("agb1") == null)
    {
-   String test2 = Main.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().agb1);
-   out.println(test2); 
+   value = Main.getWordVectorAsJSON(Model.getInstance().agb1);
+   out.println(value);
    }
+
+   if (Model.getInstance().choice.equals("vergleich") && request.getParameter("agb1") == null && request.getParameter("agb2") == null)
+   {
+	   System.out.println(Model.getInstance().muster);
+	   if (Model.getInstance().muster != null)
+	   {
+		   value = Main.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().agb1);	 
+		   System.out.println("erstes");
+	   }
+	   else
+	   {
+		   value = Main.getWordVectorComparisonAsCSV(Model.getInstance().agb1,Model.getInstance().agb2);
+		   System.out.println("zweiters");
+	   }
+   out.println(value); 
+   Model.getInstance().muster = null;
+   }
+ 
 //   
 //   if (request.getParameter("agb1") != null)
 //   {
