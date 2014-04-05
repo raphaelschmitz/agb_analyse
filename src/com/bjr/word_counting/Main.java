@@ -25,12 +25,11 @@ public class Main {
 //		System.out.println("\nEuclidean distance Dropbox - YouTube: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("Nutzungsbedingungen_YouTube.txt", true)));
 //		System.out.println("\nEuclidean distance Dropbox - Vodafone: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Vodafone.txt", true)));
 //		System.out.println("\nEuclidean distance Dropbox - Dropbox_changed: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Dropbox_changed.txt", true)));
-		
-//		System.out.println(getWordVectorAsJSON("Um die Services zu nutzen, müssen Sie zuerst den Bestimmungen zustimmen."));
+			System.out.println(getWordVectorAsJSON("Um die Services zu nutzen, mï¿½ssen Sie zuerst den Bestimmungen zustimmen."));
 
 	}
 	
-	private static String getWordVectorAsJSON(String agb_text) {
+	public static String getWordVectorAsJSON(String agb_text) {
 		
 		Gson gson = new Gson();
 		String json = null;
@@ -83,7 +82,7 @@ public class Main {
 	
 	private static ArrayList<Token> generateWordVectorFromFile(String filename, boolean useUTF8) {
 		
-		String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\–)|(\\„)|(\\“)|(\\-)|(\\r)|(\\n)";
+		String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\ï¿½)|(\\ï¿½)|(\\ï¿½)|(\\-)|(\\r)|(\\n)";
 		String[] splitString;
 		ArrayList<Token> tokenArray = new ArrayList<Token>();
 		StopwordArray stopwords = new StopwordArray();
@@ -143,7 +142,7 @@ public class Main {
 	
 private static ArrayList<Token> generateWordVectorFromString(String agb_text) {
 	
-	String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\–)|(\\„)|(\\“)|(\\-)|(\\r)|(\\n)";
+	String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\ï¿½)|(\\ï¿½)|(\\ï¿½)|(\\-)|(\\r)|(\\n)";
 	String[] splitString;
 	ArrayList<Token> tokenArray = new ArrayList<Token>();
 	StopwordArray stopwords = new StopwordArray();
