@@ -15,6 +15,8 @@ import javax.servlet.ServletContext;
 import com.google.gson.Gson;
 
 public class Main {
+	
+	static double distance = 0;
 
 	public static void main(String[] args) {
 
@@ -80,14 +82,19 @@ public class Main {
 		
 		sb.append("Word,AGB 1,AGB 2\n");
 		
+		double sum = 0;
+		
 		for (int i = 0; i < supersetArray.size(); i++) {
 			
 			if (i < 26) {
-				sb.append(supersetTokenArray1.get(i).getWord() + "," + supersetTokenArray1.get(i).getCount() + "," + supersetTokenArray2.get(i).getCount() + "\n");			
+				sb.append(supersetTokenArray1.get(i).getWord() + "," + supersetTokenArray1.get(i).getCount() + "," + supersetTokenArray2.get(i).getCount() + "\n");
+				sum = sum + Math.pow( (supersetTokenArray1.get(i).getCount() - supersetTokenArray2.get(i).getCount()), 2);
 			} else {
 				break;
 			}
 		}
+		
+		distance = Math.sqrt(sum);
 		
 		return sb.toString();
 	}
@@ -168,16 +175,20 @@ public class Main {
 		}
 		
 		sb.append("Word,AGB 1,Muster AGB\n");
+		double sum = 0;
 		
 		for (int i = 0; i < supersetArray.size(); i++) {
 
 			if (i < 26) {
 				sb.append(supersetTokenArray1.get(i).getWord() + "," + supersetTokenArray1.get(i).getCount() + "," + supersetTokenArray2.get(i).getCount() + "\n");
+				sum = sum + Math.pow( (supersetTokenArray1.get(i).getCount() - supersetTokenArray2.get(i).getCount()), 2);
 			} else {
 				break;
 			}
 			
 		}
+		
+		distance = Math.sqrt(sum);
 		
 		return sb.toString();
 	}
@@ -223,64 +234,64 @@ public class Main {
 //		return false;
 //	}
 	
-	private static ArrayList<Token> generateWordVectorFromFile(String filename, boolean useUTF8) {
-		
-		String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\„)|(\\“)|(\\-)|(\\r)|(\\n)";
-		String[] splitString;
-		ArrayList<Token> tokenArray = new ArrayList<Token>();
-		StopwordArray stopwords = new StopwordArray();
-		ArrayList<Token> resultArray = new ArrayList<Token>();
-		
-		StringBuffer content = new StringBuffer();
-		Reader reader = null;
-		String line;
-		String lineFeed = System.getProperty("line.separator");
-		try {
-			if (useUTF8) {
-				reader = new InputStreamReader(new FileInputStream(filename), "UTF8");
-			} else {
-				reader = new InputStreamReader(new FileInputStream(filename));
-			}
-			
-			BufferedReader bReader = new BufferedReader(reader);
-			while ((line = bReader.readLine()) != null) {
-				content.append(line).append(lineFeed);
-				// content.append(line);
-			}
-			bReader.close();
-		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		splitString = content.toString().split(pattern);
-
-		for (String word : splitString) {
-			if (fillArray(word, tokenArray)) {
-				tokenArray.add(new Token(word.toLowerCase(), 1));
-			}
-		}
-
-		// Remove stopwords
-		for (Token token : tokenArray) {
-			if (!containsCaseInsensitive(token.getWord(), stopwords.getArray())) {
-				resultArray.add(token);
-			}
-		}
-
-		Collections.sort(resultArray, new SortCount());
-
-		// Remove first -blank- token
-		 resultArray.remove(0);
-
-		return resultArray;
-	}
+//	private static ArrayList<Token> generateWordVectorFromFile(String filename, boolean useUTF8) {
+//		
+//		String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\„)|(\\“)|(\\-)|(\\r)|(\\n)";
+//		String[] splitString;
+//		ArrayList<Token> tokenArray = new ArrayList<Token>();
+//		StopwordArray stopwords = new StopwordArray();
+//		ArrayList<Token> resultArray = new ArrayList<Token>();
+//		
+//		StringBuffer content = new StringBuffer();
+//		Reader reader = null;
+//		String line;
+//		String lineFeed = System.getProperty("line.separator");
+//		try {
+//			if (useUTF8) {
+//				reader = new InputStreamReader(new FileInputStream(filename), "UTF8");
+//			} else {
+//				reader = new InputStreamReader(new FileInputStream(filename));
+//			}
+//			
+//			BufferedReader bReader = new BufferedReader(reader);
+//			while ((line = bReader.readLine()) != null) {
+//				content.append(line).append(lineFeed);
+//				// content.append(line);
+//			}
+//			bReader.close();
+//		} catch (UnsupportedEncodingException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (FileNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//
+//		splitString = content.toString().split(pattern);
+//
+//		for (String word : splitString) {
+//			if (fillArray(word, tokenArray)) {
+//				tokenArray.add(new Token(word.toLowerCase(), 1));
+//			}
+//		}
+//
+//		// Remove stopwords
+//		for (Token token : tokenArray) {
+//			if (!containsCaseInsensitive(token.getWord(), stopwords.getArray())) {
+//				resultArray.add(token);
+//			}
+//		}
+//
+//		Collections.sort(resultArray, new SortCount());
+//
+//		// Remove first -blank- token
+//		 resultArray.remove(0);
+//
+//		return resultArray;
+//	}
 	
 	
 private static ArrayList<Token> generateWordVectorFromString(String agb_text) {
@@ -328,67 +339,67 @@ private static ArrayList<Token> generateWordVectorFromString(String agb_text) {
 	}
 		
 //	private static ArrayList<Token> calculateEuclideanDistance(ArrayList<Token> tokenArray1, ArrayList<Token> tokenArray2) {
-	private static double calculateEuclideanDistance(ArrayList<Token> tokenArray1, ArrayList<Token> tokenArray2) {
-		
-	
-		ArrayList<String> supersetArray = new ArrayList<String>();
-		ArrayList<Token> supersetTokenArray1 = new ArrayList<Token>();
-		ArrayList<Token> supersetTokenArray2 = new ArrayList<Token>();
-
-//		 Generate a superset of the dimensions of both tokenArrays
-		
-//		 Copy entire first array
-		for (Token token : tokenArray1) {
-			supersetArray.add(token.getWord());
-		}
-		
-//		 Copy tokens from second array which are not already present
-		for (Token token : tokenArray2) {
-			if (!containsCaseInsensitive(token.getWord(), supersetArray)) {
-				supersetArray.add(token.getWord());
-			}
-		}
-		
-		
-//		 Map the input arrays to the superset
-		
-		for (String word : supersetArray) {
-			supersetTokenArray1.add(new Token(word.toLowerCase(), 0));
-		}
-		
-		for (Token token : tokenArray1) {
-			for(Token supersetToken : supersetTokenArray1) {
-				if (token.getWord().equalsIgnoreCase(supersetToken.getWord())) {
-					supersetToken.setCount(token.getCount());
-				}
-			}
-		}
-		
-		for (String word : supersetArray) {
-			supersetTokenArray2.add(new Token(word.toLowerCase(), 0));
-		}
-		
-		for (Token token : tokenArray2) {
-			for(Token supersetToken : supersetTokenArray2) {
-				if (token.getWord().equalsIgnoreCase(supersetToken.getWord())) {
-					supersetToken.setCount(token.getCount());
-				}
-			}
-		}
-		
-		
-	// Perform euclidean distance calculation
-		
-		double sum = 0;
-		
-		for (int i = 0; i < supersetArray.size(); i++) {
-//			System.out.println("Array1: " + supersetTokenArray1.get(i).getWord() + " --> " + supersetTokenArray1.get(i).getCount() + "    Array2: " + supersetTokenArray2.get(i).getWord() + " --> " + supersetTokenArray2.get(i).getCount());
-			sum = sum + Math.pow( (supersetTokenArray1.get(i).getCount() - supersetTokenArray2.get(i).getCount()), 2);
-		}
-		
-		double distance = Math.sqrt(sum); 
-					
-		return distance;
-	}
+//	private static double calculateEuclideanDistance(ArrayList<Token> tokenArray1, ArrayList<Token> tokenArray2) {
+//		
+//	
+//		ArrayList<String> supersetArray = new ArrayList<String>();
+//		ArrayList<Token> supersetTokenArray1 = new ArrayList<Token>();
+//		ArrayList<Token> supersetTokenArray2 = new ArrayList<Token>();
+//
+////		 Generate a superset of the dimensions of both tokenArrays
+//		
+////		 Copy entire first array
+//		for (Token token : tokenArray1) {
+//			supersetArray.add(token.getWord());
+//		}
+//		
+////		 Copy tokens from second array which are not already present
+//		for (Token token : tokenArray2) {
+//			if (!containsCaseInsensitive(token.getWord(), supersetArray)) {
+//				supersetArray.add(token.getWord());
+//			}
+//		}
+//		
+//		
+////		 Map the input arrays to the superset
+//		
+//		for (String word : supersetArray) {
+//			supersetTokenArray1.add(new Token(word.toLowerCase(), 0));
+//		}
+//		
+//		for (Token token : tokenArray1) {
+//			for(Token supersetToken : supersetTokenArray1) {
+//				if (token.getWord().equalsIgnoreCase(supersetToken.getWord())) {
+//					supersetToken.setCount(token.getCount());
+//				}
+//			}
+//		}
+//		
+//		for (String word : supersetArray) {
+//			supersetTokenArray2.add(new Token(word.toLowerCase(), 0));
+//		}
+//		
+//		for (Token token : tokenArray2) {
+//			for(Token supersetToken : supersetTokenArray2) {
+//				if (token.getWord().equalsIgnoreCase(supersetToken.getWord())) {
+//					supersetToken.setCount(token.getCount());
+//				}
+//			}
+//		}
+//		
+//		
+//	// Perform euclidean distance calculation
+//		
+//		double sum = 0;
+//		
+//		for (int i = 0; i < supersetArray.size(); i++) {
+////			System.out.println("Array1: " + supersetTokenArray1.get(i).getWord() + " --> " + supersetTokenArray1.get(i).getCount() + "    Array2: " + supersetTokenArray2.get(i).getWord() + " --> " + supersetTokenArray2.get(i).getCount());
+//			sum = sum + Math.pow( (supersetTokenArray1.get(i).getCount() - supersetTokenArray2.get(i).getCount()), 2);
+//		}
+//		
+//		double distance = Math.sqrt(sum); 
+//					
+//		return distance;
+//	}
 
 }
