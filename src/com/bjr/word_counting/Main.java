@@ -81,6 +81,8 @@ public class Main {
 		
 		sb.append("Word,AGB 1,AGB 2\n");
 		
+		// Calculate euclidean distance
+		
 		double sum = 0;
 		
 		for (int i = 0; i < supersetArray.size(); i++) {
@@ -173,7 +175,10 @@ public class Main {
 			}
 		}
 		
-		sb.append("Word,AGB 1,Muster AGB\n");
+		sb.append("Word,Eingegebene AGB,Muster AGB\n");
+		
+		// Calculate euclidean distance
+
 		double sum = 0;
 		
 		for (int i = 0; i < supersetArray.size(); i++) {
