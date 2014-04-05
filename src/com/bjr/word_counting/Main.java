@@ -25,7 +25,74 @@ public class Main {
 //		System.out.println("\nEuclidean distance Dropbox - YouTube: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("Nutzungsbedingungen_YouTube.txt", true)));
 //		System.out.println("\nEuclidean distance Dropbox - Vodafone: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Vodafone.txt", true)));
 //		System.out.println("\nEuclidean distance Dropbox - Dropbox_changed: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Dropbox_changed.txt", true)));
-			System.out.println(getWordVectorAsJSON("Um die Services zu nutzen abd a3f dfdf"));
+			System.out.println(getWordVectorComparisonAsCSV("Um die Services zu nutzen abd a3f dfdf", "Um die Services zu nutzen abd a3f dfdf"));
+	}
+	
+	public static String getWordVectorComparisonAsCSV(String agb_text1, String agb_text2) {
+		
+		StringBuffer sb = new StringBuffer();
+		
+		ArrayList<String> supersetArray = new ArrayList<String>();
+		ArrayList<Token> supersetTokenArray1 = new ArrayList<Token>();
+		ArrayList<Token> supersetTokenArray2 = new ArrayList<Token>();
+		
+		ArrayList<Token> tokenArray1 = generateWordVectorFromString(agb_text1);
+		ArrayList<Token> tokenArray2 = generateWordVectorFromString(agb_text2);
+
+//		 Generate a superset of the dimensions of both tokenArrays
+		
+//		 Copy entire first array
+		for (Token token : tokenArray1) {
+			supersetArray.add(token.getWord());
+		}
+		
+//		 Copy tokens from second array which are not already present
+		for (Token token : tokenArray2) {
+			if (!containsCaseInsensitive(token.getWord(), supersetArray)) {
+				supersetArray.add(token.getWord());
+			}
+		}
+		
+//		 Map the input arrays to the superset
+		
+		for (String word : supersetArray) {
+			supersetTokenArray1.add(new Token(word.toLowerCase(), 0));
+		}
+		
+		for (Token token : tokenArray1) {
+			for(Token supersetToken : supersetTokenArray1) {
+				if (token.getWord().equalsIgnoreCase(supersetToken.getWord())) {
+					supersetToken.setCount(token.getCount());
+				}
+			}
+		}
+		
+		for (String word : supersetArray) {
+			supersetTokenArray2.add(new Token(word.toLowerCase(), 0));
+		}
+		
+		for (Token token : tokenArray2) {
+			for(Token supersetToken : supersetTokenArray2) {
+				if (token.getWord().equalsIgnoreCase(supersetToken.getWord())) {
+					supersetToken.setCount(token.getCount());
+				}
+			}
+		}
+		
+		sb.append("Word,AGB 1,AGB 2\n");
+		
+		for (int i = 0; i < supersetArray.size(); i++) {
+			sb.append(supersetTokenArray1.get(i).getWord() + "," + supersetTokenArray1.get(i).getCount() + "," + supersetTokenArray2.get(i).getCount() + "\n");			
+		}
+		
+		return sb.toString();
+	}
+	
+	public static String getWordVectorComparisonWithTemplateAsCSV(String agb_text) {
+		
+		String result = null;
+		
+		return result;
 	}
 	
 	public static String getWordVectorAsJSON(String agb_text) {
@@ -39,7 +106,7 @@ public class Main {
 		
 		return result;
 	}
-
+	
 	private static boolean fillArray(String word, ArrayList<Token> tokenArray) {
 
 		for (Token token : tokenArray) {
