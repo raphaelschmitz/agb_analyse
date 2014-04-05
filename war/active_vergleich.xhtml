@@ -52,9 +52,9 @@ body {
 
 <script>
 
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
+var margin = {top: 20, right: 20, bottom: 110, left: 40},
     width = 924 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 550 - margin.top - margin.bottom;
 
 var x0 = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
@@ -96,7 +96,14 @@ d3.csv("/server", function(error, data) {
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
+      .call(xAxis)
+	  .selectAll("text")  
+            .style("text-anchor", "end")
+            .attr("dx", "-.8em")
+            .attr("dy", ".15em")
+            .attr("transform", function(d) {
+                return "rotate(-65)" 
+                });
 
   svg.append("g")
       .attr("class", "y axis")
