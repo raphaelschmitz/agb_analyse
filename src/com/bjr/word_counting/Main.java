@@ -25,8 +25,8 @@ public class Main {
 //		System.out.println("\nEuclidean distance Dropbox - YouTube: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("Nutzungsbedingungen_YouTube.txt", true)));
 //		System.out.println("\nEuclidean distance Dropbox - Vodafone: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Vodafone.txt", true)));
 //		System.out.println("\nEuclidean distance Dropbox - Dropbox_changed: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Dropbox_changed.txt", true)));
-		System.out.println(getWordVectorComparisonAsCSV("Um die Services zu nutzen abd a3f dfdf", "Hallo dies ist ein Test dfdf a3f dfdf"));
-//		System.out.println(getWordVectorComparisonWithTemplateAsCSV("Um die Services zu nutzen abd a3f dfdf"));
+//		System.out.println(getWordVectorComparisonAsCSV("Um die Services zu nutzen abd a3f dfdf", "Hallo dies ist ein Test dfdf a3f dfdf"));
+		System.out.println(getWordVectorComparisonWithTemplateAsCSV("Um die Services zu nutzen abd a3f dfdf"));
 	}
 	
 	public static String getWordVectorComparisonAsCSV(String agb_text1, String agb_text2) {
@@ -98,7 +98,7 @@ public class Main {
 		ArrayList<Token> supersetTokenArray2 = new ArrayList<Token>();
 		
 		ArrayList<Token> tokenArray1 = generateWordVectorFromString(agb_text);
-		ArrayList<Token> tokenArray2 = generateWordVectorFromFile("AGB_Muster.txt", false);
+		ArrayList<Token> tokenArray2 = generateWordVectorFromFile("war\\agb_templates\\AGB_Muster.txt", false);
 
 //		 Generate a superset of the dimensions of both tokenArrays
 		
