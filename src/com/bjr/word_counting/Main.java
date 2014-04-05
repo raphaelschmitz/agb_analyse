@@ -98,7 +98,7 @@ public class Main {
 		ArrayList<Token> supersetTokenArray2 = new ArrayList<Token>();
 		
 		ArrayList<Token> tokenArray1 = generateWordVectorFromString(agb_text);
-		ArrayList<Token> tokenArray2 = generateWordVectorFromFile("war\\agb_templates\\AGB_Muster.txt", false);
+		ArrayList<Token> tokenArray2 = generateWordVectorFromFile("\\agb_templates\\AGB_Muster.txt", false);
 
 //		 Generate a superset of the dimensions of both tokenArrays
 		
