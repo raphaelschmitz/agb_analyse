@@ -44,7 +44,6 @@ function ajaxFormPost(strURL, dir, formname, responsediv, lang, mistakes, conten
         }
 
     }
-    alert (lang);
     self.xmlHttpReq.send(getquerystring(formname) + '&switch=' + lang + '&mistakes=' + mistakes + '&content=' + content);
 
 }

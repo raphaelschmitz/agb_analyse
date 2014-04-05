@@ -4,6 +4,7 @@ public class Model {
 	public static Model model;
 	public static String agb1;
 	public static String agb2;
+	public static String choice;
 
 
 	public static Model getInstance(){

@@ -27,31 +27,38 @@ public void doGet(HttpServletRequest request,
    response.setContentType("application/json");
 
    PrintWriter out = response.getWriter();
+   
+   if (request.getParameter("switch") != null){
+   Model.getInstance().choice = request.getParameter("switch");
+   }
+   if (request.getParameter("agb1") != null){
+   Model.getInstance().agb1 = request.getParameter("agb1");
+   }
+   if (request.getParameter("agb2") != null){
+   Model.getInstance().agb2 = request.getParameter("agb2");
+   }
 
-   if (Model.getInstance().agb1 != null && Model.getInstance().agb2 == null)
+   if (Model.getInstance().choice.equals("einzel"))
    {
    String test = Main.getWordVectorAsJSON(Model.getInstance().agb1);
    out.println(test);
-   Model.getInstance().agb1 = null; 
    }
 
-   if (Model.getInstance().agb1 != null && Model.getInstance().agb2 != null)
+   if (Model.getInstance().choice.equals("vergleich"))
    {
-   String test2 = Main.getWordVectorComparisonAsCSV(Model.getInstance().agb1, Model.getInstance().agb2);
+   String test2 = Main.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().agb1);
    out.println(test2); 
-   Model.getInstance().agb1 = null; 
-   Model.getInstance().agb2 = null;
    }
-   
-   if (request.getParameter("agb1") != null)
-   {
-   Model.getInstance().agb1 = request.getParameter("agb1");
-   }
-   if (request.getParameter("agb1") != null && request.getParameter("agb2") != null)
-   {
-   Model.getInstance().agb1 = request.getParameter("agb1");
-   Model.getInstance().agb2 = request.getParameter("agb2");
-   }
+//   
+//   if (request.getParameter("agb1") != null)
+//   {
+//   Model.getInstance().agb1 = request.getParameter("agb1");
+//   }
+//   if (request.getParameter("agb1") != null && request.getParameter("agb2") != null)
+//   {
+//   Model.getInstance().agb1 = request.getParameter("agb1");
+//   Model.getInstance().agb2 = request.getParameter("agb2");
+//   }
    
 
    
