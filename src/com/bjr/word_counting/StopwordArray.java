@@ -328,6 +328,9 @@ public class StopwordArray {
 		array.add("7");
 		array.add("8");
 		array.add("9");
+		
+		array.add("§");
+		array.add("•");
 
 	}
 
