@@ -48,6 +48,24 @@ body {
 		    <div id="head">
 			</div>    
 			<div id="content">
+			<div id="abstand">
+			</div>
+<script>
+
+
+$(function() {  
+	$.get(
+    "/server?abstand=true",
+    {paramOne : 1, paramX : 'abc'},
+    function(data) {
+    $("#abstand").append('Der Abstand zwischen den AGB beträgt: ' + data);
+    }
+);
+
+}
+);
+</script>
+
 <script src="http://d3js.org/d3.v3.min.js"></script>
 
 <script>

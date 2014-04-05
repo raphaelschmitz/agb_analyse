@@ -65,7 +65,8 @@ public void doGet(HttpServletRequest request,
 	   }
    } else
    {
-	   out.println("1234");
+	   String ausgabe = "" + Main.distance;
+	   out.println(ausgabe);
    }
 //   
 //   if (request.getParameter("agb1") != null)
