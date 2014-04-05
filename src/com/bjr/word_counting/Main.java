@@ -142,8 +142,8 @@ public class Main {
 		
 		sb.append("Word,AGB 1,AGB 2\n");
 		
-//		for (int i = 0; i < supersetArray.size(); i++) {
-		for (int i = 0; i < 25; i++) {
+		for (int i = 0; i < supersetArray.size(); i++) {
+//		for (int i = 0; i < 25; i++) {
 
 			sb.append(supersetTokenArray1.get(i).getWord() + "," + supersetTokenArray1.get(i).getCount() + "," + supersetTokenArray2.get(i).getCount() + "\n");			
 		}
