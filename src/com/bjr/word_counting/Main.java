@@ -1,7 +1,6 @@
 package com.bjr.word_counting;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,7 +15,7 @@ import com.google.gson.Gson;
 
 public class Main {
 	
-	static double distance = 0;
+	public static double distance = 0;
 
 	public static void main(String[] args) {
 
