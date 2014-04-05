@@ -19,10 +19,12 @@ function stripAndExecuteScript(text) {
 };
 
 function ajaxFormPost(strURL, dir, formname, responsediv, lang, mistakes, content) {
+
 	strURL = strURL;
 
     var xmlHttpReq = false;
     var self = this;
+    
 
     // Mozilla/Safari/Ie7
     if (window.XMLHttpRequest) {
@@ -38,13 +40,12 @@ function ajaxFormPost(strURL, dir, formname, responsediv, lang, mistakes, conten
     self.xmlHttpReq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     self.xmlHttpReq.onreadystatechange = function() {
         if (self.xmlHttpReq.readyState == 4) {
-        	
-        	ajaxContentPost(content, '', '', 'content', 'de');
-
+        	window.location.replace(content);
         }
 
     }
     self.xmlHttpReq.send(getquerystring(formname) + '&lang=' + lang + '&mistakes=' + mistakes + '&content=' + content);
+
 }
 
 function getquerystring(formname) {
