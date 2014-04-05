@@ -7,21 +7,49 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.UnsupportedEncodingException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-//		displayTokenArrayContent(generateWordVector("AGB_Dropbox.txt", true));
-//		displayTokenArrayContent(generateWordVector("AGB_Vodafone.txt", false));
-//		displayTokenArrayContent(generateWordVector("Nutzungsbedingungen_YouTube.txt", false));
+//		displayTokenArrayContent(generateWordVectorFromFile("AGB_Dropbox.txt", true));
+//		displayTokenArrayContent(generateWordVectorFromFile("AGB_Vodafone.txt", false));
+//		displayTokenArrayContent(generateWordVectorFromFile("Nutzungsbedingungen_YouTube.txt", false));
 		
-		System.out.println("\nEuclidean distance Dropbox - YouTube: " + calculateEuclideanDistance(generateWordVector("AGB_Dropbox.txt", true), generateWordVector("Nutzungsbedingungen_YouTube.txt", true)));
-		System.out.println("\nEuclidean distance Dropbox - Vodafone: " + calculateEuclideanDistance(generateWordVector("AGB_Dropbox.txt", true), generateWordVector("AGB_Vodafone.txt", true)));
-		System.out.println("\nEuclidean distance Dropbox - Dropbox_changed: " + calculateEuclideanDistance(generateWordVector("AGB_Dropbox.txt", true), generateWordVector("AGB_Dropbox_changed.txt", true)));
+//		System.out.println("\nEuclidean distance Dropbox - YouTube: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("Nutzungsbedingungen_YouTube.txt", true)));
+//		System.out.println("\nEuclidean distance Dropbox - Vodafone: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Vodafone.txt", true)));
+//		System.out.println("\nEuclidean distance Dropbox - Dropbox_changed: " + calculateEuclideanDistance(generateWordVectorFromFile("AGB_Dropbox.txt", true), generateWordVectorFromFile("AGB_Dropbox_changed.txt", true)));
+		
+//		System.out.println(getWordVectorAsJSON("Um die Services zu nutzen, müssen Sie zuerst den Bestimmungen zustimmen."));
 
+	}
+	
+	private static String getWordVectorAsJSON(String agb_text) {
+		
+		Gson gson = new Gson();
+		String json = null;
+		String result = null;
+		
+		ArrayList<Token> arrayList = generateWordVectorFromString(agb_text);
+		
+//		for (Token token : arrayList) {
+////			result = token.getWord() + token.getCount();
+//			result = gson.toJson(token);
+//			gsonBuilder.
+//		}
+		
+		result = gson.toJson(arrayList);
+		
+//		String s = token + "";
+//		Token t = gson.fromJson(gson, Token.class);
+		
+		return result;
 	}
 
 	private static boolean fillArray(String word, ArrayList<Token> tokenArray) {
@@ -53,16 +81,16 @@ public class Main {
 //		return false;
 //	}
 	
-	private static ArrayList<Token> generateWordVector(String filename, boolean useUTF8) {
+	private static ArrayList<Token> generateWordVectorFromFile(String filename, boolean useUTF8) {
 		
-		StringBuffer content = new StringBuffer();
 		String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\–)|(\\„)|(\\“)|(\\-)|(\\r)|(\\n)";
 		String[] splitString;
 		ArrayList<Token> tokenArray = new ArrayList<Token>();
 		StopwordArray stopwords = new StopwordArray();
 		ArrayList<Token> resultArray = new ArrayList<Token>();
+		
+		StringBuffer content = new StringBuffer();
 		Reader reader = null;
-
 		String line;
 		String lineFeed = System.getProperty("line.separator");
 		try {
@@ -90,6 +118,38 @@ public class Main {
 		}
 
 		splitString = content.toString().split(pattern);
+
+		for (String word : splitString) {
+			if (fillArray(word, tokenArray)) {
+				tokenArray.add(new Token(word.toLowerCase(), 1));
+			}
+		}
+
+		// Remove stopwords
+		for (Token token : tokenArray) {
+			if (!containsCaseInsensitive(token.getWord(), stopwords.getArray())) {
+				resultArray.add(token);
+			}
+		}
+
+		Collections.sort(resultArray, new SortCount());
+
+		// Remove first -blank- token
+		 resultArray.remove(0);
+
+		return resultArray;
+	}
+	
+	
+private static ArrayList<Token> generateWordVectorFromString(String agb_text) {
+	
+	String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\–)|(\\„)|(\\“)|(\\-)|(\\r)|(\\n)";
+	String[] splitString;
+	ArrayList<Token> tokenArray = new ArrayList<Token>();
+	StopwordArray stopwords = new StopwordArray();
+	ArrayList<Token> resultArray = new ArrayList<Token>();
+		
+		splitString = agb_text.toString().split(pattern);
 
 		for (String word : splitString) {
 			if (fillArray(word, tokenArray)) {
