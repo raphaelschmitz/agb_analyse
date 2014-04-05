@@ -15,7 +15,7 @@ import com.google.gson.Gson;
 
 public class Main {
 	
-	public static double distance = 0;
+	public static double distance = -1;
 
 	public static void main(String[] args) {
 
