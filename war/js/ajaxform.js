@@ -55,8 +55,8 @@ function getquerystring(formname) {
 
     function GetElemValue(name, value) {
         qstr += (qstr.length > 0 ? "&" : "")
-            + escape(name).replace(/\+/g, "%2B") + "="
-            + escape(value ? value : "").replace(/\+/g, "%2B");
+            + encodeURI(name).replace(/\+/g, "%2B") + "="
+            + encodeURI(value ? value : "").replace(/\+/g, "%2B");
 			//+ escape(value ? value : "").replace(/\n/g, "%0D");
     }
 	

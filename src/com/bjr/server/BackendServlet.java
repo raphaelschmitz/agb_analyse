@@ -30,41 +30,41 @@ public void doGet(HttpServletRequest request,
    PrintWriter out = response.getWriter();
    
    if (request.getParameter("switch") != null){
-   Model.getInstance().choice = request.getParameter("switch");
+   Model.getInstance().setChoice(request.getParameter("switch"));
    }
    if (request.getParameter("agb1") != null){
-   Model.getInstance().agb1 = request.getParameter("agb1");
-   System.out.println(Model.getInstance().agb1);
-   System.out.println("Ä");
+   Model.getInstance().setAgb1(request.getParameter("agb1"));
+   System.out.println(Model.getInstance().getAgb1());
+   System.out.println("Ä ö");
    }
    if (request.getParameter("agb2") != null){
-   Model.getInstance().agb2 = request.getParameter("agb2");
+   Model.getInstance().setAgb2(request.getParameter("agb2"));
    }
    if (request.getParameter("muster") != null){
-   Model.getInstance().muster = request.getParameter("muster");
+   Model.getInstance().setMuster(request.getParameter("muster"));
    }
 	
    if (request.getParameter("abstand")==null) {
-	   if (Model.getInstance().choice.equals("einzel") && request.getParameter("agb1") == null)
+	   if (Model.getInstance().getChoice().equals("einzel") && request.getParameter("agb1") == null)
 	   {
-	   value = Main.getWordVectorAsJSON(Model.getInstance().agb1);
+	   value = Main.getWordVectorAsJSON(Model.getInstance().getAgb1());
 	   out.println(value);
 	   }
-	   if (Model.getInstance().choice.equals("vergleich") && request.getParameter("agb1") == null && request.getParameter("agb2") == null)
+	   if (Model.getInstance().getChoice().equals("vergleich") && request.getParameter("agb1") == null && request.getParameter("agb2") == null)
 	   {
 //		   System.out.println(Model.getInstance().muster);
-		   if (Model.getInstance().muster != null)
+		   if (Model.getInstance().getMuster() != null)
 		   {
-			   value = Main.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().agb1, this.getServletContext());	 
+			   value = Main.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().getAgb1(), this.getServletContext());	 
 //			   System.out.println("erstes");
 		   }
 		   else
 		   {
-			   value = Main.getWordVectorComparisonAsCSV(Model.getInstance().agb1,Model.getInstance().agb2);
+			   value = Main.getWordVectorComparisonAsCSV(Model.getInstance().getAgb1(),Model.getInstance().getAgb2());
 //			   System.out.println("zweites");
 		   }
 	   out.println(value); 
-	   Model.getInstance().muster = null;
+	   Model.getInstance().setMuster(null);
 	   }
    } else
    {
