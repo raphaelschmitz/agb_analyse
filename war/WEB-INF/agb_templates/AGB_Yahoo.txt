@@ -1,0 +1,273 @@
+﻿Yahoo Allgemeine Geschäftsbedingungen
+
+1. GELTUNG DIESER ALLGEMEINEN GESCHÄFTSBEDINGUNGEN 
+
+Yahoo stellt Ihnen die unter der URL www.yahoo.de bzw. http://de.yahoo.com angebotenen Produkte (im Folgenden „Dienste" oder „Services“) auf der Grundlage der nachfolgenden Allgemeinen Geschäftsbedingungen („AGB“) zur Verfügung. 
+
+1.1. Vertragsparteien 
+
+Bitte beachten Sie, dass unterschiedliche Dienste von unterschiedlichen Yahoo-Gesellschaften angeboten werden. Detaillierte Angaben dazu, welche Dienste von welcher Gesellschaft angeboten werden, sowie nähere Informationen über den jeweiligen Anbieter finden Sie im Impressum. 
+
+Wenn in Zusammenhang mit einem bestimmten Dienst von Yahoo die Rede ist, so ist damit die jeweils im Impressum als Anbieter gekennzeichnete Yahoo-Gesellschaft gemeint. Diese Gesellschaft wird bei der Nutzung des Dienstes auch Ihr Vertragspartner.
+
+1.2 Vertragsschluss 
+
+Mit der Nutzung eines oder mehrerer Dienste erkennen Sie diese AGB an und es kommt ein Nutzungsvertrag zwischen Ihnen und Yahoo zustande, der diese AGB umfasst. Sie können die AGB ausdrucken. 
+
+Wenn Sie die AGB nicht anerkennen, dürfen Sie die Dienste nicht nutzen.
+
+1.3 Besondere Geschäftsbedingungen 
+
+Für bestimmte Dienste gelten zusätzlich Besondere Geschäftsbedingungen („BesGB“), die diese AGB ergänzen, aber auch Abweichungen enthalten können und dann diesen AGB vorgehen. Auf die Geltung Besonderer Geschäftsbedingungen wird in dem jeweiligen Dienst hingewiesen.
+
+2. LEISTUNGSBESCHREIBUNG
+
+Yahoo bietet eine Vielzahl unterschiedlicher Dienste aus den Bereichen Telekommunikation, Social Networking / Community sowie Information, einschließlich Online-Foren, personalisierte Inhalte und mit Partnerunternehmen gemeinsam angebotene Produkte an. Die meisten Dienste werden von Yahoo kostenlos zur Verfügung gestellt. Daneben gibt es auch gebührenpflichtige „Premium-Dienste“. Auf eine etwaige Gebührenpflicht werden Sie bei der Registrierung für den betreffenden Dienst hingewiesen. 
+
+Um die Dienste nutzen zu können, müssen Sie eigenverantwortlich für einen Internetzugang und alle hierzu benötigten technischen Vorrichtungen sorgen und die in diesem Zusammenhang anfallenden Gebühren selbst tragen. 
+
+Der Verantwortungsbereich von Yahoo beschränkt sich auf die Datenspeicherung auf den Systemen von Yahoo und den Datentransport ab dem / bis zu dem Zugangspunkt dieser Systeme zum World Wide Web („WWW“). Yahoo hat außerhalb dieses eigenen Verantwortungsbereichs keinen Einfluss auf die Datenübermittlung und übernimmt insoweit, insbesondere für Störungen oder Ausfälle öffentlicher Kommunikationsnetze und technischer Vorrichtungen Dritter, die den Datenfluss im WWW steuern, keine Verantwortung. 
+
+Bitte beachten Sie, dass bei Internetdienstleistungen technische Störungen und Ausfälle nie komplett ausgeschlossen werden können. 
+
+2.1 Kostenlose Dienste 
+
+Bei Diensten, die von Yahoo kostenlos angeboten werden („Kostenlose Dienste“), behält sich Yahoo vor, einzelne oder alle Dienste in Zukunft gebührenpflichtig als „Premium-Dienste“ anzubieten. 
+
+2.2 Premium-Dienste 
+
+Bei gebührenpflichtigen Diensten („Premium-Dienste“) sind die jeweiligen ergänzend zur Anwendung kommenden Besonderen Geschäftsbedingungen zu beachten.
+
+2.3 Dienste, die gemeinsam mit Partnerunternehmen oder von Dritten angeboten warden
+
+Einige Dienste geben dem Nutzer die Möglichkeit, Waren oder Dienstleistungen von Partnerunternehmen oder Dritten zu beziehen. Bei Inanspruchnahme derartiger Angebote kommt ein Vertragsverhältnis ausschließlich zwischen dem Nutzer und dem jeweiligen Partnerunternehmen oder Dritten zustande. Yahoo übernimmt keine Gewähr für die Leistungsfähigkeit der Partnerunternehmen oder Dritten und haftet nicht für die Erfüllung solcher Verträge.
+
+3. REGISTRIERUNGSPFLICHT
+
+Verschiedene Dienste (wie z.B. Yahoo Mail) erfordern eine Registrierung. In diesem Fall sind Sie verpflichtet, wahrheitsgemäße und vollständige Angaben zu Ihrer Person nach den Vorgaben des Anmeldeformulars („Registrierungsdaten“) zu machen, und diese Daten im Falle von Änderungen unverzüglich zu aktualisieren. Bitte beachten Sie, dass die wahrheitsgemäße Angabe der Registrierungsdaten auch erforderlich ist, um im Falle eines Passwortverlustes wieder Zugang zu Ihrem Account zu erlangen. Bei der Registrierung besteht auch die Möglichkeit, eine alternative E-Mail-Adresse anzugeben. Die Angabe einer alternativen E-Mail-Adresse erleichtert im Falle eines Passwortverlustes einen erneuten Zugang zu Ihrem Account und kann von Yahoo entsprechend Ihrer Accounteinstellungen vor allem dazu genutzt werden, Ihnen Mitteilungen, etwa im Falle von Änderungen unseres Angebotes, zukommen zu lassen. Sie können Ihre persönlichen Daten und Account-Einstellungen (z.B. Verwaltung Ihres Passwortes oder Ihrer alternativen E-Mail-Adresse) jederzeit im Bereich „Mein Account“ einsehen und ändern.
+
+4. DATENSCHUTZ
+
+Ihre Registrierungsdaten sowie alle sonstigen Daten zu Ihrer Person („personenbezogene Daten“) werden von uns nur in Übereinstimmung mit den gesetzlichen Vorschriften verarbeitet und genutzt. Weitere Informationen dazu, wie wir Ihre personenbezogenen Daten verwenden, finden Sie hier.
+
+5. ACCOUNT, PASSWORT UND SICHERHEIT
+
+5.1 Ihr Account ist durch ein Passwort geschützt. Um Ihre Privatsphäre bestmöglich zu wahren, müssen Sie sicherstellen, dass Ihr Passwort keinem Dritten zugänglich gemacht wird. 
+
+5.2 Sie tragen für alle Handlungen, die unter Verwendung Ihres Passwortes und/oder Ihres Accounts vorgenommen werden, die volle Verantwortung und stehen auch Yahoo gegenüber für alle Nutzungen unter Gebrauch Ihres Passwortes und/oder Accounts ein, es sei denn, das Passwort bzw. der Account wurde nachweislich ohne Ihr Verschulden durch einen Dritten unbefugt verwendet. Sie sind verpflichtet, Yahoo unverzüglich über jede missbräuchliche Benutzung Ihres Passwortes und/oder Accounts zu unterrichten.
+
+5.3 Falls Sie Ihr Passwort vergessen haben oder Ihr Passwort unberechtigt von einem Dritten genutzt wird, können Sie ein neues Passwort erhalten, wenn Sie die Voraussetzungen für die Vergabe eines neuen Passwortes erfüllen. Die Mitarbeiter von Yahoo kennen Ihr Passwort nicht und werden Sie auch niemals danach fragen. Nähere Informationen dazu finden Sie auf unseren Hilfeseiten.
+
+5.4 Ein Account ist nicht übertragbar und alle Rechte an dem Account und den gespeicherten Inhalten erlöschen mit dem Tod des Nutzers. 
+
+6. MINDERJÄHRIGE
+
+6.1 Minderjährige Kinder unter 13 Jahren dürfen die Dienste ohne Einwilligung ihrer Erziehungsberechtigten nicht nutzen. Erziehungsberechtigte, die minderjährigen Kindern unter 13 Jahren den Zugang zu den Diensten gestatten möchten, sollten sie beim Einrichten eines Accounts unterstützen und die Nutzung der Dienste begleiten. 
+
+6.2 Wenn Sie minderjährigen Kindern unter 13 Jahren gestatten, Yahoo Dienste zu nutzen, werden diese Zugang zu kostenlosen Diensten wie E-Mail, Foren, Messenger oder anderen Community Produkten haben. Bitte führen Sie sich vor Augen, dass die Dienste ein breites Publikum ansprechen und daher Material enthalten können, das für Kinder ungeeignet ist. 
+
+7. VERANTWORTLICHKEITEN UND PFLICHTEN DER NUTZER
+
+Im Internet öffentlich zugänglich gemachte Inhalte können weltweit von jedermann abgerufen werden. Mittels Suchmaschinen kann zudem gezielt nach bestimmten Inhalten gesucht werden. Bitte beachten Sie deshalb besonders:
+
+7.1 Sie sind verantwortlich dafür, dass unter Verwendung Ihres Accounts die Dienste ausschließlich in Übereinstimmung mit geltendem Recht und dem Nutzungsvertrag genutzt werden, insbesondere, dass die von Ihnen im Rahmen der Dienste öffentlich zugänglich gemachten oder verbreiteten Inhalte (i) keine Rechte Dritter (z.B. Persönlichkeitsrechte, Rechte am eigenen Bild, Urheberrechte, Markenrechte u.ä.) verletzen, (ii) nicht in sonstiger Weise gegen geltendes Recht (z.B. Jugendschutzvorschriften) verstoßen und (iii) inhaltlich richtig sind. Soweit es sich bei von Ihnen eingegebenen, öffentlich zugänglich gemachten oder verbreiteten Inhalten um persönliche Daten Dritter handelt, sind Sie verantwortlich dafür, dass die Betroffenen der von Ihnen vorgenommenen Nutzung zugestimmt haben. 
+
+7.2 Sie dürfen bei der Nutzung der Dienste andere Nutzer und Yahoo nicht behindern oder ausspähen (z.B. Phishing), die Dienste nicht für andere als die vorgesehenen Zwecke nutzen oder sie in einer Weise nutzen, die ihren technischen Ablauf stört oder überlastet. 
+
+7.3 Unzulässig ist insbesondere 
+
+a. Inhalte öffentlich zugänglich zu machen oder zu verbreiten, die Programme oder Dateien enthalten, die die Hard- oder Software von Yahoo oder anderen Nutzern schädigen könnten (z.B. Viren, Würmer, Trojanische Pferde u.ä.); 
+
+b. Inhalte öffentlich zugänglich zu machen, per E-Mail oder in sonstiger Weise zu verbreiten, die belästigend, verleumderisch, bedrohlich, obszön, hasserregend, rassistisch oder in sonstiger Weise rechtlich zu beanstanden sind; 
+
+c. sich in den Diensten als eine andere Person auszugeben, z.B. als ein Vertreter von Yahoo oder ein in sonstiger Weise für den Dienst Verantwortlicher, oder eine nicht bestehende Beziehung zu solchen Personen vorzugeben; 
+
+d. Kopfzeilen zu fälschen oder in sonstiger Weise Erkennungszeichen zu manipulieren, um die Herkunft eines Inhalts, der im Rahmen der Dienste übertragen wird, zu verschleiern; 
+
+e. Inhalte öffentlich zugänglich zu machen, per E-Mail oder auf sonstige Weise zu verbreiten, zu deren Weitergabe Sie nicht berechtigt sind (z.B. aufgrund von Geheimhaltungsverpflichtungen o.ä.); 
+
+f. Inhalte öffentlich zugänglich zu machen, per E-Mail oder auf sonstige Weise zu verbreiten, die Rechte Dritter, insbesondere Patente, Marken, Urheberrechte, einschließlich der Rechte der Fotografen, Filmschaffenden, Komponisten und Interpreten von Musikstücken, etc., Geschäftsgeheimnisse oder sonstige Eigentumsrechte verletzen; 
+
+g. kommerzielle Werbung, Junk-Mail, Massen-E-Mail („Spam“), Kettenbriefe oder Schneeballsysteme öffentlich zugänglich zu machen und/oder per E-Mail oder auf sonstige Weise zu verbreiten; 
+
+h. Material einzugeben, öffentlich zugänglich zu machen, per E-Mail oder auf sonstige Weise zu verbreiten, das Viren oder andere Informationen, Dateien oder Programme enthält, die dazu gedacht oder geeignet sind, die Funktion von Soft- oder Hardware oder von Telekommunikationsvorrichtungen zu beeinträchtigen oder auszuschalten; 
+
+i. den technischen Ablauf der Dienste zu stören oder den gewöhnlichen Gang einer Kommunikation zu unterbrechen, etwa den Bildschirm schneller ablaufen („scrollen“) zu lassen, als andere Benutzer des Dienstes Inhalte eingeben können oder in sonstiger Weise die Möglichkeit anderer Nutzer, in Echtzeit zu kommunizieren, zu beeinträchtigen; 
+
+j. in die Dienste oder die mit den Diensten verbundenen Server oder Netzwerke einzugreifen und dadurch ihre Funktion zu beeinträchtigen oder sie zu unterbrechen oder gegen Vorschriften, Verfahren oder sonstige Regeln für die Nutzung von Netzwerken, die mit den Diensten verbunden sind, zu verstoßen.
+
+7.4. Yahoo ist berechtigt, aber nicht verpflichtet, Inhalte und Nutzungshandlungen im Rahmen der Dienste zu überwachen, selbstverständlich nur soweit eine solche Überwachung gesetzlich zulässig ist, insbesondere das Fernmeldegeheimnis gewahrt und alle datenschutzrechtlichen Vorschriften eingehalten sind.
+
+7.5. Yahoo ist berechtigt, auf Inhalte zuzugreifen und ggf. an Dritte weiterzugeben oder sie zu löschen, soweit Yahoo hierzu rechtlich verpflichtet ist oder dies nach pflichtgemäßem Ermessen notwendig und rechtlich zulässig ist, um (a) gesetzliche Bestimmungen oder richterliche oder behördliche Anordnungen zu erfüllen, (b) die Einhaltung des Nutzungsvertrages sicherzustellen, (c) auf die Geltendmachung einer Rechtsverletzung durch Dritte zu reagieren, (d) die Rechte oder die persönliche Sicherheit von Yahoo, der Yahoo Nutzer oder der Öffentlichkeit zu wahren oder (e) Ihnen bei technischen Problemen mit Ihrem Account zu helfen. 
+
+7.6. Sie sind verpflichtet, für eine ordnungsgemäße Sicherung der von Ihnen im Rahmen der Dienste veröffentlichten, gespeicherten, übermittelten oder empfangenen Inhalte zu sorgen.
+
+8. BESONDERER HINWEIS ZUR INTERNATIONALITÄT DES INTERNETS UND DEN GELTENDEN IMPORT-/EXPORTVORSCHRIFTEN
+
+Bitte beachten Sie, dass im Internet öffentlich zugänglich gemachte Inhalte, d.h. auch die Inhalte, die Sie im Rahmen der Dienste veröffentlichen oder verbreiten, ggf. weltweit abrufbar sind. Es liegt in Ihrem Verantwortungsbereich, dafür zu sorgen, dass von Ihnen zugänglich gemachte Inhalte nicht gegen möglicherweise anwendbares ausländisches Recht verstoßen. Die Nutzung der Yahoo Dienste sowie die Übermittlung, Veröffentlichung und das Hochladen von Software, Technologie und anderen technischen Daten mittels der Yahoo Dienste kann den Import- und Exportgesetzen der Vereinigten Staaten von Amerika und anderen Ländern unterliegen. Es liegt in Ihrem Verantwortungsbereich, alle anwendbaren Import- und Exportgesetze, u.a. die „Export Administration Regulations“ (einzusehen hier: http://www.access.gpo.gov/bis/ear/ear_data.html und die Sanktionskontrollprogramme der Vereinigten Staaten von Amerika (einzusehen hier: http://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx, einzuhalten. Insbesondere sichern Sie zu, dass Sie a) nicht auf einer Exportausschlussliste einer Regierung gelistet sind (einzusehen hier http://www.bis.doc.gov/complianceandenforcement/liststocheck.htm oder ein Regierungsmitglied eines Staates sind, der nach den geltenden Import- und Exportgesetzen einem Exportverbot unterliegt, b) keine Software, Technologie oder andere technische Daten mittels der Yahoo Dienste an natürliche und juristische Personen oder Länder, die dem Exportverbot unterliegen, übermitteln; c) die Yahoo Dienste nicht für den Betrieb von Raketen oder für militärische, atomare, chemische oder biologische Waffenzwecke unter Verletzung der U.S. Exportgesetze nutzen und d) keine Software, Technologie oder andere technische Daten unter Verletzung der US amerikanischen oder anderer anwendbarer Import- oder Exportgesetze mittels der Yahoo Dienste übermitteln, hochladen oder veröffentlichen.
+
+9. RECHTE AN INHALTEN DER NUTZER
+
+9.1 Die Dienste umfassen öffentlich und nicht öffentlich zugängliche Bereiche. Im Sinne dieser AGB sind „öffentlich zugängliche Bereiche“ solche Bereiche, die der Allgemeinheit zugänglich sind und von Suchmaschinen indexiert werden können wie beispielsweise Yahoo Foren. „Nicht öffentlich zugängliche Bereiche“ sind solche Bereiche, die nur einzelnen Personen zugänglich sind wie beispielsweise geschlossene Nutzergruppen bei Yahoo Groups. 
+
+9.2 Wenn Sie einen Inhalt in einen nicht öffentlich zugänglichen Bereich eingeben, gewähren Sie Yahoo, den mit Yahoo gemäß § 15 AktG verbundenen Unternehmen sowie Vertragspartnern von Yahoo das gebührenfreie, nicht ausschließliche, unbefristete Recht, diesen Inhalt (ganz oder teilweise) weltweit zu nutzen, soweit dies allein zur Erbringung der im Rahmen des betreffenden Dienstes angebotenen Leistungen geschieht. Hierfür ist es insbesondere erforderlich, dass die von Ihnen eingegebenen Inhalte von Yahoo gespeichert, zum Abruf bereitgehalten, auf Servern gehostet, technisch vervielfältigt, dargestellt und den Personen zur Verfügung gestellt werden, die Zugang zu dem nicht öffentlich zugänglichen Bereich haben. Dieses Recht gilt nur so lange, wie Sie den Inhalt in dem betreffenden nicht öffentlich zugänglichen Bereich zugänglich machen wollen, und erlischt, sobald Sie den Inhalt aus dem nicht öffentlich zugänglichen Bereich entfernen.
+
+9.3 Wenn Sie einen Inhalt in einen öffentlich zugänglichen Bereich von Yahoo eingeben, gewähren Sie Yahoo, den mit Yahoo verbundenen Unternehmen und den Vertragspartnern von Yahoo das gebührenfreie, nicht ausschließliche, unbefristete Recht, diesen Inhalt (ganz oder teilweise) weltweit zur Erbringung der im Rahmen des betreffenden Dienstes angebotenen Leistungen und zur Bewerbung der Dienste von Yahoo zu nutzen. Für die Erbringung von Diensten ist es insbesondere erforderlich, dass die von Ihnen veröffentlichten Inhalte von Yahoo gespeichert, auf Servern gehostet, zum Abruf bereitgehalten, technisch vervielfältigt, dargestellt und öffentlich zugänglich gemacht werden. Zu den Leistungen von Yahoo zählt auch, dass Yahoo seinen Nutzern bei einigen Diensten gestattet, Teaser und/oder Auszüge von Inhalten – nicht aber vollständige Inhalte – auf deren Seiten unter Verwendung sog. RSS-Feeds darzustellen und öffentlich zugänglich zu machen, soweit diese Teaser und/oder Auszüge einen Link zu dem betreffenden Dienst enthalten. 
+
+9.4 Falls Sie selbst nicht Inhaber der Rechte an einem von Ihnen eingegebenen Inhalt sind, sind Sie dafür verantwortlich, dass der Inhaber der Rechte an dem Inhalt (z.B. der Verfasser eines Textes, der Fotograf eines Bildes, der Ersteller eines Videos, der Komponist/Interpret eines Musikstückes) sich mit der von Ihnen vorgenommenen Nutzung des Inhalts und der Übertragung der Rechte gemäß den vorstehenden Regelungen einverstanden erklärt hat.
+
+10. HAFTUNGSFREISTELLUNG
+
+Sie erklären hiermit, dass Sie Yahoo und die mit Yahoo im Sinne von § 15 AktG verbundenen Unternehmen, deren Organe, Mitarbeiter und Erfüllungsgehilfen von allen Ansprüchen, einschließlich angemessener Kosten der Rechtsverteidigung, freistellen, die von Dritten wegen eines Verstoßes gegen Rechtsvorschriften, behördliche Anordnungen oder vertragliche Verpflichtungen (a) durch die Inhalte, die Sie eingeben, öffentlich zugänglich machen oder in sonstiger Weise im Rahmen der Dienste verbreiten oder (b) aufgrund Ihrer sonstigen Nutzung der Dienste geltend gemacht werden, es sei denn, Sie haben die behauptete Rechts- bzw. Pflichtverletzung nachweislich nicht zu vertreten. 
+
+11. KEINE KOMMERZIELLE NUTZUNG DER DIENSTE
+
+Yahoo stellt sämtliche Dienste (kostenlose und Premium-Dienste) ausschließlich zur privaten Nutzung zur Verfügung. Sie dürfen die Dienste daher nicht für geschäftliche Zwecke gleich welcher Art nutzen.
+
+12. ALLGEMEINE RICHTLINIEN FÜR DIE NUTZUNG DER DIENSTE
+
+Yahoo ist berechtigt, allgemeine Richtlinien für die Nutzung der Dienste, wie etwa die Yahoo Clever Community Richtlinien, aufzustellen. Sie sind verpflichtet, derartige Richtlinien zu beachten.
+
+13. ÄNDERUNGEN / EINSTELLUNG DER DIENSTE
+
+13.1 Die Dienste sind einem ständigen technischen und inhaltlichen Wandel unterworfen, da Yahoo die Funktionen der Dienste fortlaufend technisch weiterentwickelt, verbessert und einem geänderten Nutzerverhalten anpasst. 
+
+13.2 Yahoo behält sich deshalb das Recht vor, Kostenlose Dienste (oder einzelne Funktionen davon) vorübergehend oder auf Dauer zu ändern, soweit diese Änderungen unter Berücksichtigung der Interessen von Yahoo für Sie zumutbar sind. Zumutbar sind insbesondere solche Änderungen, die die Interessen der Nutzer nicht wesentlich beeinträchtigen oder keine wesentliche Einschränkung des Nutzungsumfangs der Kostenlosen Dienste zur Folge haben; beispielsweise die Erweiterung Kostenloser Dienste um zusätzliche Funktionen und Features oder Änderungen im Registrierungsprozess. 
+
+Änderungen Kostenloser Dienste, die die Interessen der Nutzer wesentlich beeinträchtigen oder eine wesentliche Einschränkung des Nutzungsumfangs zur Folge haben, sind unter Wahrung einer Ankündigungsfrist von mindestens 30 Kalendertagen zulässig und berechtigen Sie zur Kündigung des Nutzungsvertrages mit Wirkung zum Änderungszeitpunkt. 
+
+Yahoo behält sich außerdem das Recht vor, Kostenlose Dienste (oder einzelne Funktionen davon) einzustellen, z.B. aus rechtlichen oder technischen Gründen. Soweit Yahoo einen Kostenlosen Dienst einstellt, werden Sie über die Einstellung mindestens 30 Kalendertage vorher gemäß Ziff. 21.2 unterrichtet, so dass Sie ausreichend Zeit haben, in dem jeweiligen Kostenlosen Dienst erstellte Inhalte zu sichern.
+
+13.3 Bei Premium-Diensten gilt abweichend hiervon Folgendes: Änderungen eines Premium-Dienstes, die zu einer Einschränkung des Nutzungsumfangs führen, sind nur unter Wahrung einer Ankündigungsfrist von mindestens 30 Kalendertagen zulässig und berechtigen Sie zur Kündigung des Nutzungsvertrages mit Wirkung zum Änderungszeitpunkt. Bereits gezahlte Gebühren werden im Falle einer Kündigung anteilig an Sie zurückerstattet. Entsprechendes gilt im Falle einer vollständigen Einstellung des Premium-Dienstes.
+
+13.4 Sofern ein Dienst den Download von Software erfordert oder beinhaltet, kann diese Software automatische Updates downloaden, sofern dies der Behebung von Produktfehlern, der Bereitstellung zusätzlicher Produkt- oder Sicherheitsfunktionen oder neuer Produktversionen dient. Sofern ein solches Update die Interessen der Nutzer wesentlich beeinträchtigt oder eine wesentliche Einschränkung des Nutzungsumfangs des Dienstes zur Folge hat, werden Sie über das Update informiert. Einige Dienste ermöglichen es Ihnen, Einstellungen hinsichtlich der Bereitstellung automatischer Updates vorzunehmen. 
+
+14. SPERRUNG / KÜNDIGUNG / LÖSCHUNG DES ACCOUNTS
+
+14.1 Yahoo ist berechtigt, Ihren Account ohne vorherige Ankündigung zu sperren, wenn Sie gegen die Verpflichtungen aus Ziff. 7.1 bis 7.3 verstoßen. Das Recht zur außerordentlichen Kündigung aus wichtigem Grund gemäß Ziff. 14.4 bleibt unberührt. 
+
+14.2 Sie können den Vertrag über die Nutzung Kostenloser Dienste zu jeder Zeit – aus welchem Grund auch immer – kündigen, indem Sie Ihren Account löschen. Nähere Informationen zur Löschung eines Accounts erhalten Sie auf unseren Hilfeseiten. Bitte beachten Sie, dass im Falle einer Löschung Ihres Accounts auch die zugehörigen Inhalte gelöscht werden. 
+
+14.3 Yahoo kann Verträge über die Nutzung Kostenloser Dienste unter Einhaltung einer Frist von 30 Kalendertagen ordentlich kündigen.
+
+14.4 Das Recht zur außerordentlichen Kündigung aus wichtigem Grund gemäß § 314 BGB bleibt unberührt. Ein wichtiger Grund liegt auf Seiten von Yahoo insbesondere dann vor, wenn Sie gegen wesentliche Verpflichtungen aus diesen AGB, z.B. Ziff. 3, 7.1 bis 7.3 oder 11, verstoßen; in einem solchen Fall sind wir berechtigt, Sie von jeglicher Nutzung einzelner oder sämtlicher Dienste gegenwärtig und in Zukunft auszuschließen. 
+
+14.5 Kündigungen gemäß Ziff. 14.2 – 14.4 sind in Textform, d.h. auch per E-Mail, möglich. Im Falle einer Kündigung des Nutzungsvertrages durch Yahoo gemäß Ziff. 14.3 und 14.4 kann Yahoo Ihren Account und alle zugehörigen Inhalte löschen. 
+
+14.6 Für Verträge über die Nutzung von Premium-Diensten gelten besondere Kündigungsregeln, die in den jeweils anwendbaren Besonderen Geschäftsbedingungen aufgeführt sind.
+
+14.7 Soweit Sie Ihren Yahoo Account innerhalb von 12 Monaten nicht genutzt haben (d.h. sich nicht in Ihrem Yahoo Account angemeldet haben), kann Yahoo Ihren Yahoo Account und alle darin enthaltenen Inhalte löschen.
+
+15. LINKS
+
+15.1 Links auf die Dienste. 
+
+Yahoo ist – jederzeit widerruflich – damit einverstanden, dass Sie Hyperlinks („Links“) zu der Startseite von yahoo.de sowie zu den Startseiten der einzelnen Dienste setzen, aber nur soweit (i) durch das Setzen des Links nicht der unzutreffende Eindruck einer geschäftlichen Verbindung mit oder einer Billigung der verlinkten Inhalte durch Yahoo erweckt wird, (ii) der Link ausschließlich auf die Startseite des Dienstes gesetzt wird (keine „deep links“) und (iii) der Dienst in einem neuen Fenster und vollständig wiedergegeben wird und auch sonst dem Betrachter deutlich wird, dass es sich um einen Inhalt von Yahoo handelt (keine „frames“). 
+
+15.2 Links auf fremde Angebote. 
+
+Soweit Yahoo oder ein Nutzer im Rahmen seiner Nutzung der Dienste einen Link auf einen fremden Inhalt setzt, bedeutet dies ohne Hinzutreten weiterer Umstände nicht, dass Yahoo den fremden Inhalt billigt oder sich zueigen macht. 
+
+16. SCHUTZRECHTE
+
+Die Dienste, ihre Inhalte einschließlich der Werbeinhalte, sowie die Software, die in Zusammenhang mit den Diensten eingesetzt wird („Software“), sind durch Rechtsvorschriften, insbesondere Urheberrechte, Marken, Patente oder sonstige Rechte zum Schutz des geistigen Eigentums, geschützt. Sofern sich Yahoo oder die betreffenden Rechteinhaber nicht schriftlich damit einverstanden erklärt haben, dürfen Sie die Dienste, ihre Inhalte und die eingesetzte Software ausschließlich im Rahmen der nach diesen Allgemeinen Geschäftsbedingungen und gegebenenfalls ergänzend anwendbaren Besonderen Geschäftsbedingungen vorgesehenen Nutzung nutzen.
+
+17. GEWÄHRLEISTUNGSAUSSCHLUSS
+
+17.1 Yahoo gewährleistet nicht, dass die Dienste Ihren Anforderungen entsprechen und zu jeder Zeit ohne Unterbrechung, zeitgerecht, störungs- und fehlerfrei zur Verfügung stehen. Dies gilt insbesondere dann, wenn der Zugriff auf die Dienste durch Umstände eingeschränkt wird, die außerhalb des Verantwortungsbereichs von Yahoo liegen. Yahoo gewährleistet auch nicht, dass die für die Dienste genutzte Hard- und Software zu jeder Zeit fehlerfrei funktioniert.
+
+17.2 Yahoo übernimmt keine Gewährleistung bezüglich der Ergebnisse, die durch die Nutzung der Dienste erzielt werden können, bezüglich der Richtigkeit und Vollständigkeit der im Rahmen der Dienste erhaltenen Informationen oder dafür, dass die Qualität der im Zusammenhang mit den Diensten erhaltenen Informationen und Dienstleistungen Ihren Erwartungen entspricht. 
+
+18. HAFTUNGSBESCHRÄNKUNG
+
+18.1 Soweit Yahoo Telekommunikationsdienste für die Öffentlichkeit erbringt, gelten die Haftungsbeschränkungen des § 44a TKG.
+
+18.2 Außerhalb des Anwendungsbereichs von § 44a TKG gelten die folgenden Haftungsbeschränkungen:
+
+a. Eine vertragliche oder außervertragliche Schadensersatzpflicht seitens Yahoo besteht nur, sofern der Schaden auf grobe Fahrlässigkeit oder Vorsatz zurückzuführen ist. Für die schuldhafte Verletzung von Leib, Leben oder Gesundheit einer natürlichen Person haftet Yahoo auch bei nur einfacher Fahrlässigkeit. Darüber hinaus haftet Yahoo auch für die nur einfach fahrlässige Verletzung einer wesentlichen Vertragspflicht, allerdings der Summe nach begrenzt auf die Vermögensnachteile, die Yahoo bei Abschluss des Nutzungsvertrages als mögliche Folge der Vertragsverletzung hätte voraussehen müssen. „Wesentliche Vertragspflichten“ sind solche Verpflichtungen, deren Erfüllung die ordnungsgemäße Durchführung des Nutzungsvertrages und die Erreichung des Vertragszweckes überhaupt erst ermöglichen und auf deren Einhaltung ein Nutzer regelmäßig nach Inhalt und Zweck des Nutzungsvertrages vertrauen darf. 
+
+b. Für fremde Inhalte ist die Haftung von Yahoo zusätzlich nach den Maßgaben des Telemediengesetzes beschränkt.
+
+c. Die Haftung nach dem Produkthaftungsgesetz bleibt unberührt.
+
+19. KONZERNUNTERNEHMEN
+
+Die vorgenannten Gewährleistungs- und Haftungsbeschränkungen gelten auch für eine etwaige persönliche Haftung unserer Organe, Mitarbeiter und Erfüllungsgehilfen. Sie gelten ebenso für die mit Yahoo im Sinne von § 15 AktG verbundenen Unternehmen und deren Organe, Mitarbeiter und Erfüllungsgehilfen.
+
+20. BESONDERER HINWEIS FÜR FINANZINFORMATIONEN
+
+Yahoo bietet im Rahmen seiner Dienste u.a. unentgeltliche Finanzinformationen an. Derartige Finanzinformationen dienen ausschließlich allgemeinen Informations- und Unterhaltungszwecken. Sie sind nicht für Handels- oder Investitionszwecke bestimmt. Sie ersetzen insbesondere keine fachkundige, persönliche und anlage- und anlegergerechtete Information und Beratung durch eine Bank oder einen sonstigen Finanzdienstleister Ihres Vertrauens.
+
+21. MITTEILUNGEN
+
+21.1 Erklärungen oder Mitteilungen an Yahoo können Sie an die im Impressum angegebenen Kontaktadressen richten.
+
+21.2 Erklärungen oder Mitteilungen an die Nutzer, insbesondere die Ankündigung einer Einstellung einzelner Dienste oder eine Änderung dieser AGB oder BesGB, senden wir per E-Mail an Sie. Soweit Sie bei der Registrierung eine alternative E-Mail-Adresse angegeben haben, können Sie wählen, ob wir Ihnen Erklärungen oder Mitteilungen an die alternative E-Mail-Adresse oder an Ihre Yahoo E-Mail-Adresse senden sollen. Erklärungen oder Mitteilungen, die Dienste betreffen, für die eine Registrierung nicht erforderlich ist, werden durch einen Hinweis innerhalb des betreffenden Dienstes bekannt gemacht. Ein Anspruch auf individuelle Benachrichtigung besteht in diesen Fällen nicht.
+
+21.3 Verletzungen Ihrer Urheberrechte melden Sie bitte der Rechtsabteilung von Yahoo. Dabei stellen Sie bitte folgende Unterlagen zur Verfügung: 
+
+a. eine elektronische oder handschriftliche Unterschrift der Person, die berechtigt ist, für den Rechtsinhaber zu handeln; 
+
+b. eine Beschreibung des urheberrechtlich geschützten Werkes, das Ihrer Ansicht nach verletzt wurde; 
+
+c. eine Beschreibung, wo sich das Material befindet, das Ihrer Ansicht nach Urheberrechte verletzt; 
+
+d. Ihre Anschrift, Telefonnummer und E-Mail Adresse;
+
+e. eine Erklärung von Ihnen, dass nach Ihrem besten Wissen und Gewissen die beanstandete Benutzung nicht durch den Inhaber der Urheberrechte, durch dessen Bevollmächtigte oder durch Rechtsvorschriften zugelassen ist; 
+
+f. eine eidesstattliche Versicherung von Ihnen, dass die obigen Informationen wahrheitsgemäß sind und dass Sie Inhaber der Urheberrechte oder bevollmächtigt sind, im Namen des Rechteinhabers zu handeln.
+
+Sie können die Rechtsabteilung wie folgt erreichen:
+
+Postanschrift:
+Yahoo EMEA Limited 
+Pinnacle 1 East Point Business Park, Alfie Byrne Road
+Dublin 3, Irland 
+
+Telefon: 00353 1866 3100
+
+Telefax: 00353 1866 3101
+
+
+oder senden Sie uns Ihre Anfrage über unser Beschwerdeformular für Urheberrechtsverletzungen.
+
+21.4 Verstöße gegen diese AGB können Sie über unser Hilfeformular melden. Bitte tragen Sie die Identifikationsdaten des Verletzers und den betreffenden Inhalt, den Sie hierzu bitte kopieren und ebenfalls eingeben, in das Hilfeformular ein.
+
+22. ÄNDERUNGEN DIESER AGB
+
+22.1 Yahoo behält sich das Recht vor, die AGB für die Zukunft zu ändern, beispielsweise um Gesetzesänderungen, Änderungen der Dienste oder Regelungslücken zu berücksichtigen. Änderungen der AGB wird Yahoo mindestens vier Wochen vor Inkrafttreten gemäß Ziff. 21.2 ankündigen. Die Änderungen werden wirksam, wenn Sie nicht innerhalb von vier Wochen nach der Ankündigung widersprechen. Yahoo weist Sie bei der Ankündigung der Änderungen auf das Recht zum Widerspruch und die Folgen des Ausbleibens eines Widerspruchs hin. 
+
+22.2 Widersprechen Sie innerhalb der in Ziff. 22.1 genannten Frist, gelten für Ihre Nutzung der Dienste weiterhin die bisherigen vertraglichen Regelungen. Die Kündigungsrechte gemäß Ziff. 14. bleiben unberührt. 
+
+23. ALLGEMEINE BESTIMMUNGEN
+
+23.1 Die Aufrechnung gegen Ansprüche von Yahoo ist nur zulässig, wenn die zugrunde liegenden Gegenansprüche unbestritten oder rechtskräftig festgestellt sind.
+
+23.2 Yahoo ist berechtigt, für alle Leistungen nach dem Nutzungsvertrag Unterauftragnehmer einzusetzen; die Haftung von Yahoo gegenüber dem Nutzer bleibt unberührt.
+
+23.3 Sollten eine oder mehrere Bestimmungen des Nutzungsvertrages unwirksam oder undurchführbar sein oder werden, so wird die Wirksamkeit der verbleibenden Bestimmungen nicht berührt.
+
+23.4 Die vertraglichen Beziehungen (einschließlich dieser AGB und sämtlicher BesGB) zwischen den Parteien in Bezug auf die Nutzung der Dienste unterliegen irischem Recht. Wenn Sie Ihren Wohnsitz  in der Bundesrepublik Deutschland haben, beschränkt diese Rechtswahl nicht die Anwendung deutscher Verbraucherschutzgesetze.   
+
+Widerrufsrecht 
+
+Widerrufsbelehrung 
+
+Sie können Ihre Vertragserklärung innerhalb von 14 Tagen ohne Angabe von Gründen in Textform (z. B. Brief, Fax, E-Mail) widerrufen. Die Frist beginnt nach Erhalt dieser Belehrung in Textform, jedoch nicht vor Vertragsschluss und auch nicht vor Erfüllung unserer Informationspflichten gemäß Art. 246 § 2 in Verbindung mit § 1 Abs. 1 und 2 EGBGB und auch nicht vor Erfüllung unserer Pflichten gemäß § 312e Abs. 1 Satz 1 BGB in Verbindung mit Art. 246 § 3 EGBGB. Zur Wahrung der Widerrufsfrist genügt die rechtzeitige Absendung des Widerrufs. Der Widerruf ist zu richten an: 
+
+Yahoo! EMEA Limited 
+Pinnacle 1 East Point Business Park, Alfie Byrne Road
+Dublin 3 Irland 
+E-Mail: Kontaktieren Sie Yahoo! EMEA Limited
+Fax: 00353 1866 3107
+
+Widerrufsfolgen
+
+Im Falle eines wirksamen Widerrufs sind die beiderseits empfangenen Leistungen zurückzugewähren und ggf. gezogene Nutzungen (z. B. Zinsen) herauszugeben. Können Sie uns die empfangene Leistung ganz oder teilweise nicht oder nur in verschlechtertem Zustand zurückgewähren, müssen Sie uns insoweit ggf. Wertersatz leisten. Dies kann dazu führen, dass Sie die vertraglichen Zahlungsverpflichtungen für den Zeitraum bis zum Widerruf gleichwohl erfüllen müssen. Verpflichtungen zur Erstattung von Zahlungen müssen innerhalb von 30 Tagen erfüllt werden. Die Frist beginnt für Sie mit der Absendung Ihrer Widerrufserklärung, für uns mit deren Empfang.
+
+Besondere Hinweise 
+
+Ihr Widerrufsrecht erlischt vorzeitig, wenn der Vertrag von beiden Seiten auf Ihren ausdrücklichen Wunsch vollständig erfüllt ist, bevor Sie Ihr Widerrufsrecht ausgeübt haben.
+
+Ende der Widerrufsbelehrung

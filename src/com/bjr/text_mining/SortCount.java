@@ -1,4 +1,4 @@
-package com.bjr.word_counting;
+package com.bjr.text_mining;
 
 import java.util.Comparator;
 

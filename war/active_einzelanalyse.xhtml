@@ -31,7 +31,7 @@
 
 var diameter = 924,
     format = d3.format(",d"),
-    color = d3.scale.category20c();
+    color = d3.scale.category10();
 
 var bubble = d3.layout.pack()
     .sort(null)
@@ -65,10 +65,13 @@ d3.json("/server", function(error, root) {
 
   node.append("circle")
       .attr("r", function(d) { return d.r; })
-      .style("fill", function(d) { return color(d.packageName); });
+      .attr("fill",function(d,i){return color(i);});
 
   node.append("text")
       .attr("dy", ".3em")
+      .attr("fill", "white")
+      .attr("font-size", "14px")
+      .attr("font-weight","bold")
       .style("text-anchor", "middle")
       .text(function(d) { return d.className.substring(0, d.r / 3); });
       

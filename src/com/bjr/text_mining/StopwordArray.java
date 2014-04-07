@@ -1,4 +1,4 @@
-package com.bjr.word_counting;
+package com.bjr.text_mining;
 
 import java.util.ArrayList;
 
@@ -8,6 +8,8 @@ public class StopwordArray {
 	private ArrayList<String> array;
 
 	public StopwordArray() {
+		
+		// Stopword list from: http://www.phpbar.de/w/Stoppwortliste_deutsch
 		
 		array = new ArrayList<String>();
 		array.add("aber");
@@ -44,7 +46,7 @@ public class StopwordArray {
 		array.add("danach");
 		array.add("dann");
 		array.add("darf");
-		array.add("dar?ber");
+		array.add("darüber");
 		array.add("darum");
 		array.add("darunter");
 		array.add("das");
@@ -67,7 +69,7 @@ public class StopwordArray {
 		array.add("dieses");
 		array.add("doch");
 		array.add("dort");
-		array.add("d?rfen");
+		array.add("dürfen");
 		array.add("durch");
 		array.add("durfte");
 		array.add("durften");
@@ -93,13 +95,13 @@ public class StopwordArray {
 		array.add("ferner");
 		array.add("folgender");
 		array.add("folglich");
-		array.add("f?r");
+		array.add("für");
 		array.add("ganz");
 		array.add("geben");
 		array.add("gegen");
 		array.add("gehabt");
 		array.add("gekonnt");
-		array.add("gem??");
+		array.add("gemäß");
 		array.add("getan");
 		array.add("gewesen");
 		array.add("gewollt");
@@ -107,8 +109,8 @@ public class StopwordArray {
 		array.add("gibt");
 		array.add("habe");
 		array.add("haben");
-		array.add("h?tte");
-		array.add("h?tten");
+		array.add("hätte");
+		array.add("hätten");
 		array.add("hallo");
 		array.add("hat");
 		array.add("hatte");
@@ -162,12 +164,12 @@ public class StopwordArray {
 		array.add("keinen");
 		array.add("keiner");
 		array.add("keines");
-		array.add("k?nnen");
-		array.add("k?nnte");
-		array.add("k?nnten");
+		array.add("können");
+		array.add("könnte");
+		array.add("könnten");
 		array.add("konnte");
 		array.add("konnten");
-		array.add("k?nftig");
+		array.add("künftig");
 		array.add("leer");
 		array.add("machen");
 		array.add("macht");
@@ -185,23 +187,23 @@ public class StopwordArray {
 		array.add("meisten");
 		array.add("mich");
 		array.add("mit");
-		array.add("m?chte");
-		array.add("m?chten");
-		array.add("m?ssen");
-		array.add("m?ssten");
+		array.add("möchte");
+		array.add("möchten");
+		array.add("müssen");
+		array.add("müssten");
 		array.add("muss");
 		array.add("musste");
 		array.add("mussten");
 		array.add("nach");
 		array.add("nachdem");
 		array.add("nacher");
-		array.add("n?mlich");
+		array.add("nämlich");
 		array.add("neben");
 		array.add("nein");
 		array.add("nicht");
 		array.add("nichts");
 		array.add("noch");
-		array.add("n?tzt");
+		array.add("nützt");
 		array.add("nur");
 		array.add("nutzt");
 		array.add("obgleich");
@@ -243,10 +245,10 @@ public class StopwordArray {
 		array.add("sondern");
 		array.add("soweit");
 		array.add("sowie");
-		array.add("sp?ter");
+		array.add("später");
 		array.add("stets");
 		array.add("such");
-		array.add("?ber");
+		array.add("über");
 		array.add("ums");
 		array.add("und");
 		array.add("uns");
@@ -262,10 +264,10 @@ public class StopwordArray {
 		array.add("vor");
 		array.add("vorbei");
 		array.add("vorher");
-		array.add("vor?ber");
-		array.add("w?hrend");
-		array.add("w?re");
-		array.add("w?ren");
+		array.add("vorüber");
+		array.add("während");
+		array.add("wäre");
+		array.add("wären");
 		array.add("wann");
 		array.add("war");
 		array.add("waren");
@@ -306,8 +308,8 @@ public class StopwordArray {
 		array.add("wollte");
 		array.add("wollten");
 		array.add("worin");
-		array.add("w?rde");
-		array.add("w?rden");
+		array.add("würde");
+		array.add("würden");
 		array.add("wurde");
 		array.add("wurden");
 		array.add("zufolge");
@@ -317,6 +319,8 @@ public class StopwordArray {
 		array.add("zwar");
 		array.add("zwischen");
 		
+		
+		// Custom stopwords
 		
 		array.add("0");
 		array.add("1");
@@ -328,9 +332,85 @@ public class StopwordArray {
 		array.add("7");
 		array.add("8");
 		array.add("9");
+				
+		array.add("a");
+		array.add("b");
+		array.add("c");
+		array.add("d");
+		array.add("e");
+		array.add("f");
+		array.add("g");
+		array.add("h");
+		array.add("i");
+		array.add("j");
+		array.add("k");
+		array.add("l");
+		array.add("m");
+		array.add("n");
+		array.add("o");
+		array.add("p");
+		array.add("q");
+		array.add("r");
+		array.add("s");
+		array.add("t");
+		array.add("u");
+		array.add("v");
+		array.add("w");
+		array.add("x");
+		array.add("y");
+		array.add("z");
+		array.add("ä");
+		array.add("ö");
+		array.add("ü");
+		array.add("ß");
 		
-		array.add("�");
-		array.add("�");
+		array.add("aus");
+		array.add("bei");
+		array.add("zu");
+		array.add("von");
+		array.add("seit");
+		array.add("laut");
+		array.add("mit");
+		array.add("nach");
+		array.add("für");
+		array.add("durch");
+		array.add("bis");
+		array.add("gegen");
+		array.add("ohne");
+		array.add("um");
+		array.add("trotz");
+		array.add("wegen");
+		array.add("statt");
+		array.add("während");
+		array.add("längs");
+		array.add("mittels");
+		array.add("dank");
+		array.add("in");
+		array.add("neben");
+		array.add("hinter");
+		array.add("vor");
+		array.add("über");
+		array.add("unter");
+		array.add("an");
+		array.add("auf");
+		array.add("zwischen");
+		array.add("seitens");
+		
+		array.add("am");
+		array.add("er");
+		array.add("sie");
+		array.add("es");
+		array.add("auch");
+		array.add("ab");
+		
+		array.add("§");
+		array.add("§§");
+		array.add("•");
+		
+		array.add("");
+		
+		// only because of the Muster-AGB
+		array.add("muster");
 
 	}
 

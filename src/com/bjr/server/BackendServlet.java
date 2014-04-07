@@ -10,7 +10,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 
 import com.bjr.agb_analyse.Bean;
-import com.bjr.word_counting.Main;
+import com.bjr.text_mining.WordMiner;
 import com.sun.org.apache.xpath.internal.operations.Mod;
 
 import java.util.*;
@@ -46,7 +46,7 @@ public void doGet(HttpServletRequest request,
    if (request.getParameter("abstand")==null) {
 	   if (Model.getInstance().getChoice().equals("einzel") && request.getParameter("agb1") == null)
 	   {
-	   value = Main.getWordVectorAsJSON(Model.getInstance().getAgb1());
+	   value = WordMiner.getWordVectorAsJSON(Model.getInstance().getAgb1());
 	   out.println(value);
 	   }
 	   if (Model.getInstance().getChoice().equals("vergleich") && request.getParameter("agb1") == null && request.getParameter("agb2") == null)
@@ -54,12 +54,12 @@ public void doGet(HttpServletRequest request,
 //		   System.out.println(Model.getInstance().muster);
 		   if (Model.getInstance().getMuster() != null)
 		   {
-			   value = Main.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().getAgb1(), this.getServletContext());	 
+			   value = WordMiner.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().getAgb1(), this.getServletContext());	 
 //			   System.out.println("erstes");
 		   }
 		   else
 		   {
-			   value = Main.getWordVectorComparisonAsCSV(Model.getInstance().getAgb1(),Model.getInstance().getAgb2());
+			   value = WordMiner.getWordVectorComparisonAsCSV(Model.getInstance().getAgb1(),Model.getInstance().getAgb2());
 //			   System.out.println("zweites");
 		   }
 	   out.println(value); 
@@ -67,7 +67,7 @@ public void doGet(HttpServletRequest request,
 	   }
    } else
    {
-	   String ausgabe = "" + Main.distance;
+	   String ausgabe = "" + WordMiner.distance;
 	   out.println(ausgabe);
    }
 //   
