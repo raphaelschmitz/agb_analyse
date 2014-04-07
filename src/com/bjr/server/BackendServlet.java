@@ -24,7 +24,7 @@ public void doGet(HttpServletRequest request,
          throws ServletException, IOException
 {
    // Set response content type
-   response.setContentType("application/json");
+   response.setContentType("application/json; charset=UTF-8");
    String value = "";
    PrintWriter out = response.getWriter();
    
@@ -58,7 +58,7 @@ public void doGet(HttpServletRequest request,
 		   else
 		   {
 			   value = Main.getWordVectorComparisonAsCSV(Model.getInstance().agb1,Model.getInstance().agb2);
-			   System.out.println("zweiters");
+			   System.out.println("zweites");
 		   }
 	   out.println(value); 
 	   Model.getInstance().muster = null;

@@ -115,7 +115,7 @@ public class Main {
 		String lineFeed = System.getProperty("line.separator");
 		
 		try {
-			reader = new InputStreamReader(servletContext.getResourceAsStream("/WEB-INF/agb_templates/AGB_Vodafone.txt"));
+			reader = new InputStreamReader(servletContext.getResourceAsStream("/WEB-INF/agb_templates/AGB_Muster.txt"));
 			BufferedReader bReader = new BufferedReader(reader);
 			while ((line = bReader.readLine()) != null) {
 				content.append(line).append(lineFeed);
@@ -193,6 +193,24 @@ public class Main {
 		}
 		
 		distance = Math.sqrt(sum);
+		
+//		String s = sb.toString();
+//		byte[] b = null;
+//		try {
+//			b = s.getBytes("UTF-8");
+//		} catch (UnsupportedEncodingException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		String st = null;
+//		try {
+//			st = new String(b, "UTF-8");
+//		} catch (UnsupportedEncodingException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//
+//		return st;
 		
 		return sb.toString();
 	}
