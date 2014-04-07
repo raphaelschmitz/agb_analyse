@@ -2,11 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
    	<head id="head">
    		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-   	    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
-    	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.js"></script>
+   	    <script type="text/javascript" 
+
+src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-
+
+ui.js"></script>
 		<script type="text/javascript" src="js/ajaxform.js"></script> 
 		
-		<link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'></link>
+		<link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' 
+
+type='text/css'></link>
 		<link href="css/face.css" rel="stylesheet" type="text/css" media="screen"/>
 		<link href="css/navi.css" rel="stylesheet" type="text/css" media="screen"/>
 		<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
@@ -53,18 +59,21 @@ body {
 <script>
 
 
-$(function() {  
-	i='-1';	    	
-	while (i=='-1') {
+$(function() { 
+	i='-1';	
+	setInterval( function() {    	
+	if(i=='-1') {
+		i=2;
 		$.get(
 	    "/server?abstand=true",
 	    {paramOne : 1, paramX : 'abc'},
 	    function(data) {
-	    $("#abstand").append('Der Abstand zwischen den AGB beträgt: ' + data);
+	    
+	    $("#abstand").append('Die euklidische Distanz zwischen den verglichenen AGB beträgt: ' + data);
 	    i = data;
-	    })    
+	    }) 	    
 	}
-
+}, 2000);
 }
 );
 </script>
@@ -73,7 +82,7 @@ $(function() {
 
 <script>
 
-var margin = {top: 20, right: 20, bottom: 110, left: 40},
+var margin = {top: 20, right: 20, bottom: 120, left: 60},
     width = 924 - margin.left - margin.right,
     height = 550 - margin.top - margin.bottom;
 
@@ -131,7 +140,7 @@ d3.csv("/server", function(error, data) {
       .call(yAxis)
     .append("text")
       .attr("transform", "rotate(-90)")
-      .attr("y", 6)
+      .attr("y", -55)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
       .text("Häufigkeit");

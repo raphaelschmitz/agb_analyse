@@ -34,8 +34,7 @@ public void doGet(HttpServletRequest request,
    }
    if (request.getParameter("agb1") != null){
    Model.getInstance().setAgb1(request.getParameter("agb1"));
-   System.out.println(Model.getInstance().getAgb1());
-   System.out.println("Ä ö");
+//   System.out.println(Model.getInstance().getAgb1());
    }
    if (request.getParameter("agb2") != null){
    Model.getInstance().setAgb2(request.getParameter("agb2"));
