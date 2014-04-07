@@ -24,6 +24,8 @@ public void doGet(HttpServletRequest request,
                  HttpServletResponse response)
          throws ServletException, IOException
 {
+	WordMiner wordMiner = new WordMiner();
+	
    // Set response content type
    response.setContentType("application/json; charset=UTF-8");
    String value = "";
@@ -46,7 +48,7 @@ public void doGet(HttpServletRequest request,
    if (request.getParameter("abstand")==null) {
 	   if (Model.getInstance().getChoice().equals("einzel") && request.getParameter("agb1") == null)
 	   {
-	   value = WordMiner.getWordVectorAsJSON(Model.getInstance().getAgb1());
+	   value = wordMiner.getWordVectorAsJSON(Model.getInstance().getAgb1());
 	   out.println(value);
 	   }
 	   if (Model.getInstance().getChoice().equals("vergleich") && request.getParameter("agb1") == null && request.getParameter("agb2") == null)
@@ -54,12 +56,12 @@ public void doGet(HttpServletRequest request,
 //		   System.out.println(Model.getInstance().muster);
 		   if (Model.getInstance().getMuster() != null)
 		   {
-			   value = WordMiner.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().getAgb1(), this.getServletContext());	 
+			   value = wordMiner.getWordVectorComparisonWithTemplateAsCSV(Model.getInstance().getAgb1(), this.getServletContext());	 
 //			   System.out.println("erstes");
 		   }
 		   else
 		   {
-			   value = WordMiner.getWordVectorComparisonAsCSV(Model.getInstance().getAgb1(),Model.getInstance().getAgb2());
+			   value = wordMiner.getWordVectorComparisonAsCSV(Model.getInstance().getAgb1(),Model.getInstance().getAgb2());
 //			   System.out.println("zweites");
 		   }
 	   out.println(value); 

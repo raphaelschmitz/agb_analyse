@@ -29,7 +29,7 @@ public class WordMiner {
 //		System.out.println(getWordVectorComparisonWithTemplateAsCSV("Um die Services zu nutzen abd a3f dfdf"));
 	}
 	
-	public static String getWordVectorComparisonAsCSV(String agb_text1, String agb_text2) {
+	public String getWordVectorComparisonAsCSV(String agb_text1, String agb_text2) {
 		
 		StringBuffer sb = new StringBuffer();
 		ArrayList<Token> tokenArray1 = generateWordVectorFromString(agb_text1);
@@ -120,7 +120,7 @@ public class WordMiner {
 		return sb.toString();
 	}
 	
-	public static String getWordVectorComparisonWithTemplateAsCSV(String agb_text, ServletContext servletContext) {
+	public String getWordVectorComparisonWithTemplateAsCSV(String agb_text, ServletContext servletContext) {
 		
 		StringBuffer sb = new StringBuffer();
 		
@@ -233,7 +233,7 @@ public class WordMiner {
 		return sb.toString();
 	}
 	
-	public static String getWordVectorAsJSON(String agb_text) {
+	public String getWordVectorAsJSON(String agb_text) {
 		
 		Gson gson = new Gson();
 		String result = null;
@@ -265,7 +265,7 @@ public class WordMiner {
 		return false;
 	}
 	
-private static ArrayList<Token> generateWordVectorFromString(String agb_text) {
+private ArrayList<Token> generateWordVectorFromString(String agb_text) {
 	
 	String pattern = "(\\s+)|(\\.)|(\\!)|(\\,)|(\\;)|(\\()|(\\))|(\\„)|(\\“)|(\\-)|(\\–)|(\\r)|(\\n)";
 	String[] splitString;
